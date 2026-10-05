@@ -6,7 +6,7 @@ Collect an item to discover a branch, collect every member to complete its categ
 
 [Downloads on Modrinth](https://modrinth.com/project/aica_nivpisum) · [GitHub releases](https://github.com/nivpisum/all_item_collection_advancement/releases) · [Installation and use](reference/guide.md)
 
-[Design principles and reconstruction contract](reference/design.md) (Chinese) explains the classification rationale, the author's later edits and the implemented behavior for future AI and developer work.
+[Original design essay and reconstruction contract](reference/design.md) (Chinese) preserves the motivation, arguments and tradeoffs behind the taxonomy. The author's later classification edits and the implemented 1.3.0 behavior appear in endnotes.
 
 ## Install
 
@@ -81,6 +81,6 @@ Forge 创造栏分为材料四目、其余六纲及非法门，共 11 页；快�
 
 分类版本 1.0.0 不变：1656 节点、1255 ID，合法门 1146、非法门 109。收纳袋使用六个兔子皮与两个线的原版内置配方。旧 `all_item` 和 AICA 1.0.0 的物品条件一次性导入，已有日期保留、新条件使用导入日期。升级前备份世界并移走旧包，同一世界只启用 ZIP/JAR 一种形式。
 
-[设计思想与重建契约](reference/design.md) 汇总分类原则、难例边界、作者后续手工修订与现用实现，供 AI 和开发者接续工作。
+[把判断依据留给后来者](reference/design.md) 保留原文章的设计动机、推导与改判理由，文末补记后续分类修订及现用实现契约，供 AI 和开发者接续工作。
 
 原创代码、自编分类和文档采用 **CC0-1.0**，包括商业使用、修改和再分发，无需署名或另行许可。**nivpisum**（旧署名 **SnowyPea**）仅作来源记录；第三方素材及前置依赖保留原许可。

@@ -47,4 +47,4 @@ Viewed advancement pages retain their position when new nodes appear, when switc
 
 Old `all_item` and AICA 1.0.0 item criteria import once per player. **Existing criterion dates are preserved; newly created criteria receive the import date.** Old category completion does not bypass the new all-member rules. Switching ZIP/JAR forms preserves world progress. / 旧 `all_item` 和 AICA 1.0.0 物品条件按玩家一次性导入。**已有条件日期保留，新条件使用导入日期**。旧类完成状态不会绕过新分类的全成员要求；切换 ZIP/JAR 继续使用世界中的记录。
 
-Source and rights / 源码与权利：[GitHub](https://github.com/nivpisum/all_item_collection_advancement)。**All Rights Reserved**; third-party material retains its own rights. AICA is not an official Mojang or Microsoft product. / 第三方素材保留各自权利，本项目不是 Mojang 或 Microsoft 的官方产品。
+Source and rights / 源码与权利：[GitHub](https://github.com/nivpisum/all_item_collection_advancement)。Original code, classification and documentation use **CC0-1.0**, without attribution requirements. Third-party material retains its own rights. / 原创代码、分类和文档采用 **CC0-1.0**，无需署名；第三方素材保留原许可。本项目不是 Mojang 或 Microsoft 的官方产品。

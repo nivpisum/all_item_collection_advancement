@@ -65,7 +65,7 @@ python tool/verify.py
 
 `--online` allows the Gradle wrapper to fetch its distribution and Forge build dependencies for a clean checkout. Once those dependencies are cached, `python tool/build.py` uses the default offline Gradle mode. `python tool/build.py --data-only` builds just the datapack. `--output <directory>` changes the output directory. The build downloads missing pinned client dependencies into `build/dependencies` and verifies their SHA-256 hashes. Outputs go to `build/`, with version, classification and artifact hashes in `manifest.json`. Generation does not overwrite the classification map.
 
-**All Rights Reserved.** See [LICENSE](LICENSE) and [NOTICE.md](NOTICE.md). Third-party components retain their own rights. AICA is not an official Mojang or Microsoft product.
+**CC0-1.0** covers AICA's original code, authored classification and documentation. You may use, modify and redistribute them, including commercially, without attribution or further permission. See [LICENSE](LICENSE) and [NOTICE.md](NOTICE.md). Third-party material retains its own rights. AICA is not an official Mojang or Microsoft product.
 
 ---
 
@@ -79,4 +79,4 @@ Forge 创造栏分为材料四目、其余六纲及非法门，共 11 页；快�
 
 分类版本 1.0.0 不变：1656 节点、1255 ID，合法门 1146、非法门 109。收纳袋使用六个兔子皮与两个线的原版内置配方。旧 `all_item` 和 AICA 1.0.0 的物品条件一次性导入，已有日期保留、新条件使用导入日期。升级前备份世界并移走旧包，同一世界只启用 ZIP/JAR 一种形式。
 
-作者 **nivpisum**，保留旧署名 **SnowyPea** 和 **All Rights Reserved**；第三方素材及前置依赖保留各自权利。
+原创代码、自编分类和文档采用 **CC0-1.0**，包括商业使用、修改和再分发，无需署名或另行许可。**nivpisum**（旧署名 **SnowyPea**）仅作来源记录；第三方素材及前置依赖保留原许可。

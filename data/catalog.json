@@ -1,0 +1,5268 @@
+{
+  "schema": 1,
+  "classes": [
+    {
+      "id": "arm",
+      "title": "军需纲",
+      "icon": "diamond_chestplate"
+    },
+    {
+      "id": "build",
+      "title": "建设纲",
+      "icon": "birch_stairs"
+    },
+    {
+      "id": "life",
+      "title": "生物纲",
+      "icon": "birch_sapling"
+    },
+    {
+      "id": "stone",
+      "title": "土石纲",
+      "icon": "stone"
+    },
+    {
+      "id": "work",
+      "title": "工作纲",
+      "icon": "enchanting_table"
+    }
+  ],
+  "orders": [
+    {
+      "id": "arm/fight",
+      "title": "战斗目",
+      "icon": "diamond_chestplate"
+    },
+    {
+      "id": "arm/food",
+      "title": "食物目",
+      "icon": "apple"
+    },
+    {
+      "id": "arm/tool",
+      "title": "工具目",
+      "icon": "diamond_pickaxe"
+    },
+    {
+      "id": "build/build",
+      "title": "建筑目",
+      "icon": "birch_stairs"
+    },
+    {
+      "id": "build/gui",
+      "title": "界面目",
+      "icon": "crafting_table"
+    },
+    {
+      "id": "build/redstone",
+      "title": "红石目",
+      "icon": "redstone_torch"
+    },
+    {
+      "id": "build/traffic",
+      "title": "交通目",
+      "icon": "minecart"
+    },
+    {
+      "id": "life/aminal",
+      "title": "动物目",
+      "icon": "bee_nest"
+    },
+    {
+      "id": "life/fungi",
+      "title": "真菌目",
+      "icon": "red_mushroom"
+    },
+    {
+      "id": "life/mob",
+      "title": "怪物目",
+      "icon": "skeleton_skull"
+    },
+    {
+      "id": "life/plant",
+      "title": "植物目",
+      "icon": "birch_sapling"
+    },
+    {
+      "id": "stone/dirt",
+      "title": "泥目",
+      "icon": "dirt"
+    },
+    {
+      "id": "stone/sand",
+      "title": "沙目",
+      "icon": "sand"
+    },
+    {
+      "id": "stone/stone",
+      "title": "岩石目",
+      "icon": "stone"
+    },
+    {
+      "id": "work/brew",
+      "title": "酿造目",
+      "icon": "brewing_stand"
+    },
+    {
+      "id": "work/craft",
+      "title": "合成目",
+      "icon": "leather"
+    },
+    {
+      "id": "work/enchant",
+      "title": "附魔目",
+      "icon": "enchanting_table"
+    },
+    {
+      "id": "work/mine",
+      "title": "矿物目",
+      "icon": "iron_ore"
+    },
+    {
+      "id": "work/stain",
+      "title": "染色目",
+      "icon": "light_blue_dye"
+    },
+    {
+      "id": "work/technical",
+      "title": "技术目",
+      "icon": "structure_void"
+    }
+  ],
+  "families": [
+    {
+      "id": "arm/fight/ammunition",
+      "title": "弹药科",
+      "icon": "arrow"
+    },
+    {
+      "id": "arm/fight/armor",
+      "title": "盔甲科",
+      "icon": "diamond_chestplate"
+    },
+    {
+      "id": "arm/fight/bauble",
+      "title": "饰品科",
+      "icon": "totem_of_undying"
+    },
+    {
+      "id": "arm/fight/weapon",
+      "title": "武器科",
+      "icon": "diamond_sword"
+    },
+    {
+      "id": "arm/food/aminal",
+      "title": "动食科",
+      "icon": "cooked_porkchop"
+    },
+    {
+      "id": "arm/food/other",
+      "title": "其他食物科",
+      "icon": "mushroom_stew"
+    },
+    {
+      "id": "arm/food/plant",
+      "title": "植食科",
+      "icon": "apple"
+    },
+    {
+      "id": "arm/tool/apsh",
+      "title": "斧镐锹锄科",
+      "icon": "diamond_pickaxe"
+    },
+    {
+      "id": "arm/tool/information",
+      "title": "信息科",
+      "icon": "book"
+    },
+    {
+      "id": "arm/tool/normal",
+      "title": "普通工具科",
+      "icon": "bucket"
+    },
+    {
+      "id": "build/build/fence",
+      "title": "栅栏科",
+      "icon": "birch_fence"
+    },
+    {
+      "id": "build/build/ladder",
+      "title": "梯子科",
+      "icon": "birch_stairs"
+    },
+    {
+      "id": "build/build/landmark",
+      "title": "地标科",
+      "icon": "beacon"
+    },
+    {
+      "id": "build/build/light",
+      "title": "光源科",
+      "icon": "torch"
+    },
+    {
+      "id": "build/gui/chest",
+      "title": "容器科",
+      "icon": "chest"
+    },
+    {
+      "id": "build/gui/work_table",
+      "title": "工作台科",
+      "icon": "crafting_table"
+    },
+    {
+      "id": "build/redstone/machine",
+      "title": "机械科",
+      "icon": "piston"
+    },
+    {
+      "id": "build/redstone/music",
+      "title": "音乐科",
+      "icon": "music_disc_5"
+    },
+    {
+      "id": "build/redstone/power",
+      "title": "电源科",
+      "icon": "redstone_torch"
+    },
+    {
+      "id": "build/redstone/sculk",
+      "title": "幽匿科",
+      "icon": "sculk"
+    },
+    {
+      "id": "build/redstone/wire",
+      "title": "线路科",
+      "icon": "redstone"
+    },
+    {
+      "id": "build/traffic/fly",
+      "title": "飞行科",
+      "icon": "elytra"
+    },
+    {
+      "id": "build/traffic/minecart",
+      "title": "矿车科",
+      "icon": "minecart"
+    },
+    {
+      "id": "build/traffic/rail",
+      "title": "铁轨科",
+      "icon": "rail"
+    },
+    {
+      "id": "build/traffic/ride",
+      "title": "骑乘科",
+      "icon": "saddle"
+    },
+    {
+      "id": "life/aminal/bee",
+      "title": "蜜蜂科",
+      "icon": "bee_nest"
+    },
+    {
+      "id": "life/aminal/coral",
+      "title": "珊瑚科",
+      "icon": "brain_coral"
+    },
+    {
+      "id": "life/aminal/egg",
+      "title": "蛋科",
+      "icon": "egg"
+    },
+    {
+      "id": "life/aminal/sponge",
+      "title": "海绵科",
+      "icon": "sponge"
+    },
+    {
+      "id": "life/fungi/fungus",
+      "title": "下界菌科",
+      "icon": "nether_sprouts"
+    },
+    {
+      "id": "life/fungi/mushroom",
+      "title": "蘑菇科",
+      "icon": "red_mushroom"
+    },
+    {
+      "id": "life/mob/bone",
+      "title": "骨科",
+      "icon": "bone"
+    },
+    {
+      "id": "life/mob/dragon_egg",
+      "title": "龙蛋科",
+      "icon": "dragon_egg"
+    },
+    {
+      "id": "life/mob/head",
+      "title": "生物头颅科",
+      "icon": "skeleton_skull"
+    },
+    {
+      "id": "life/plant/crop",
+      "title": "农作物科",
+      "icon": "wheat"
+    },
+    {
+      "id": "life/plant/grass",
+      "title": "草科",
+      "icon": "grass"
+    },
+    {
+      "id": "life/plant/single_plant",
+      "title": "单体植物科",
+      "icon": "lily_pad"
+    },
+    {
+      "id": "life/plant/tree",
+      "title": "树科",
+      "icon": "birch_sapling"
+    },
+    {
+      "id": "stone/dirt/brick",
+      "title": "砖科",
+      "icon": "brick"
+    },
+    {
+      "id": "stone/dirt/dirt",
+      "title": "土科",
+      "icon": "dirt"
+    },
+    {
+      "id": "stone/dirt/mud",
+      "title": "泥科",
+      "icon": "mud"
+    },
+    {
+      "id": "stone/sand/sand",
+      "title": "沙子科",
+      "icon": "sand"
+    },
+    {
+      "id": "stone/sand/snow",
+      "title": "雪科",
+      "icon": "snow"
+    },
+    {
+      "id": "stone/sand/soul_sand",
+      "title": "灵魂沙科",
+      "icon": "soul_sand"
+    },
+    {
+      "id": "stone/stone/blackstone",
+      "title": "黑石科",
+      "icon": "blackstone"
+    },
+    {
+      "id": "stone/stone/deepslate",
+      "title": "深板岩科",
+      "icon": "deepslate"
+    },
+    {
+      "id": "stone/stone/end",
+      "title": "末地岩科",
+      "icon": "end_stone"
+    },
+    {
+      "id": "stone/stone/ice",
+      "title": "冰科",
+      "icon": "ice"
+    },
+    {
+      "id": "stone/stone/mainworld",
+      "title": "主世界岩科",
+      "icon": "andesite"
+    },
+    {
+      "id": "stone/stone/nether",
+      "title": "下界岩科",
+      "icon": "netherrack"
+    },
+    {
+      "id": "stone/stone/stone",
+      "title": "石头科",
+      "icon": "stone"
+    },
+    {
+      "id": "work/brew/equipment",
+      "title": "器具科",
+      "icon": "brewing_stand"
+    },
+    {
+      "id": "work/brew/material",
+      "title": "材料科",
+      "icon": "nether_wart"
+    },
+    {
+      "id": "work/brew/potion",
+      "title": "药水科",
+      "icon": "potion"
+    },
+    {
+      "id": "work/craft/material",
+      "title": "原料科",
+      "icon": "leather"
+    },
+    {
+      "id": "work/craft/wood",
+      "title": "木材科",
+      "icon": "birch_log"
+    },
+    {
+      "id": "work/enchant/book",
+      "title": "附魔书科",
+      "icon": "enchanted_book"
+    },
+    {
+      "id": "work/enchant/equipment",
+      "title": "器材科",
+      "icon": "enchanting_table"
+    },
+    {
+      "id": "work/mine/ingot",
+      "title": "铸锭科",
+      "icon": "iron_ingot"
+    },
+    {
+      "id": "work/mine/mineral_block",
+      "title": "矿物方块科",
+      "icon": "iron_block"
+    },
+    {
+      "id": "work/mine/ore",
+      "title": "矿石科",
+      "icon": "iron_ore"
+    },
+    {
+      "id": "work/mine/raw_mine",
+      "title": "原矿科",
+      "icon": "raw_iron"
+    },
+    {
+      "id": "work/stain/build",
+      "title": "建材科",
+      "icon": "light_blue_glazed_terracotta"
+    },
+    {
+      "id": "work/stain/dye",
+      "title": "染料科",
+      "icon": "light_blue_dye"
+    },
+    {
+      "id": "work/stain/shulker_box",
+      "title": "潜影盒科",
+      "icon": "light_blue_shulker_box"
+    },
+    {
+      "id": "work/stain/wool",
+      "title": "羊毛科",
+      "icon": "light_blue_wool"
+    },
+    {
+      "id": "build/build/structure",
+      "title": "结构科",
+      "icon": "structure_block"
+    },
+    {
+      "id": "build/redstone/command",
+      "title": "命令科",
+      "icon": "command_block"
+    },
+    {
+      "id": "life/aminal/generation",
+      "title": "生物生成科",
+      "icon": "pig_spawn_egg"
+    },
+    {
+      "id": "stone/stone/infested",
+      "title": "虫蚀科",
+      "icon": "infested_stone"
+    },
+    {
+      "id": "work/technical/placeholder",
+      "title": "占位科",
+      "icon": "structure_void"
+    }
+  ],
+  "groups": [
+    {
+      "id": "arm/fight/ammunition/arrow",
+      "title": "箭属",
+      "icon": "arrow",
+      "items": [
+        "arrow",
+        "tipped_arrow",
+        "spectral_arrow"
+      ]
+    },
+    {
+      "id": "arm/fight/ammunition/end_crystal",
+      "title": "末地水晶",
+      "icon": "end_crystal",
+      "items": [
+        "end_crystal"
+      ]
+    },
+    {
+      "id": "arm/fight/ammunition/fire_charge",
+      "title": "火焰弹",
+      "icon": "fire_charge",
+      "items": [
+        "fire_charge"
+      ]
+    },
+    {
+      "id": "arm/fight/ammunition/firework_rocket",
+      "title": "烟花火箭",
+      "icon": "firework_rocket",
+      "items": [
+        "firework_rocket"
+      ]
+    },
+    {
+      "id": "arm/fight/ammunition/firework_star",
+      "title": "烟火之星",
+      "icon": "firework_star",
+      "items": [
+        "firework_star"
+      ]
+    },
+    {
+      "id": "arm/fight/ammunition/tnt",
+      "title": "TNT",
+      "icon": "tnt",
+      "items": [
+        "tnt"
+      ]
+    },
+    {
+      "id": "arm/fight/armor/diamond_boots",
+      "title": "靴子属",
+      "icon": "diamond_boots",
+      "items": [
+        "diamond_boots",
+        "iron_boots",
+        "chainmail_boots",
+        "golden_boots",
+        "netherite_boots",
+        "leather_boots"
+      ]
+    },
+    {
+      "id": "arm/fight/armor/diamond_chestplate",
+      "title": "胸甲属",
+      "icon": "diamond_chestplate",
+      "items": [
+        "diamond_chestplate",
+        "iron_chestplate",
+        "chainmail_chestplate",
+        "golden_chestplate",
+        "netherite_chestplate",
+        "leather_chestplate"
+      ]
+    },
+    {
+      "id": "arm/fight/armor/diamond_helmet",
+      "title": "头盔属",
+      "icon": "diamond_helmet",
+      "items": [
+        "diamond_helmet",
+        "iron_helmet",
+        "turtle_helmet",
+        "chainmail_helmet",
+        "golden_helmet",
+        "netherite_helmet",
+        "leather_helmet"
+      ]
+    },
+    {
+      "id": "arm/fight/armor/diamond_leggings",
+      "title": "护腿属",
+      "icon": "diamond_leggings",
+      "items": [
+        "diamond_leggings",
+        "iron_leggings",
+        "chainmail_leggings",
+        "golden_leggings",
+        "netherite_leggings",
+        "leather_leggings"
+      ]
+    },
+    {
+      "id": "arm/fight/armor/scute",
+      "title": "鳞甲",
+      "icon": "scute",
+      "items": [
+        "scute"
+      ]
+    },
+    {
+      "id": "arm/fight/bauble/totem_of_undying",
+      "title": "不死图腾",
+      "icon": "totem_of_undying",
+      "items": [
+        "totem_of_undying"
+      ]
+    },
+    {
+      "id": "arm/fight/weapon/bow",
+      "title": "弓",
+      "icon": "bow",
+      "items": [
+        "bow"
+      ]
+    },
+    {
+      "id": "arm/fight/weapon/crossbow",
+      "title": "弩",
+      "icon": "crossbow",
+      "items": [
+        "crossbow"
+      ]
+    },
+    {
+      "id": "arm/fight/weapon/diamond_sword",
+      "title": "剑属",
+      "icon": "diamond_sword",
+      "items": [
+        "diamond_sword",
+        "iron_sword",
+        "wooden_sword",
+        "stone_sword",
+        "golden_sword",
+        "netherite_sword"
+      ]
+    },
+    {
+      "id": "arm/fight/weapon/shield",
+      "title": "盾牌",
+      "icon": "shield",
+      "items": [
+        "shield"
+      ]
+    },
+    {
+      "id": "arm/fight/weapon/trident",
+      "title": "三叉戟",
+      "icon": "trident",
+      "items": [
+        "trident"
+      ]
+    },
+    {
+      "id": "arm/food/aminal/beef",
+      "title": "生牛肉",
+      "icon": "beef",
+      "items": [
+        "beef"
+      ]
+    },
+    {
+      "id": "arm/food/aminal/chicken",
+      "title": "生鸡肉",
+      "icon": "chicken",
+      "items": [
+        "chicken"
+      ]
+    },
+    {
+      "id": "arm/food/aminal/cod",
+      "title": "生鳕鱼",
+      "icon": "cod",
+      "items": [
+        "cod"
+      ]
+    },
+    {
+      "id": "arm/food/aminal/cooked_beef",
+      "title": "牛排",
+      "icon": "cooked_beef",
+      "items": [
+        "cooked_beef"
+      ]
+    },
+    {
+      "id": "arm/food/aminal/cooked_chicken",
+      "title": "熟鸡肉",
+      "icon": "cooked_chicken",
+      "items": [
+        "cooked_chicken"
+      ]
+    },
+    {
+      "id": "arm/food/aminal/cooked_cod",
+      "title": "熟鳕鱼",
+      "icon": "cooked_cod",
+      "items": [
+        "cooked_cod"
+      ]
+    },
+    {
+      "id": "arm/food/aminal/cooked_mutton",
+      "title": "熟羊肉",
+      "icon": "cooked_mutton",
+      "items": [
+        "cooked_mutton"
+      ]
+    },
+    {
+      "id": "arm/food/aminal/cooked_porkchop",
+      "title": "熟猪排",
+      "icon": "cooked_porkchop",
+      "items": [
+        "cooked_porkchop"
+      ]
+    },
+    {
+      "id": "arm/food/aminal/cooked_rabbit",
+      "title": "熟兔肉",
+      "icon": "cooked_rabbit",
+      "items": [
+        "cooked_rabbit"
+      ]
+    },
+    {
+      "id": "arm/food/aminal/cooked_salmon",
+      "title": "熟鲑鱼",
+      "icon": "cooked_salmon",
+      "items": [
+        "cooked_salmon"
+      ]
+    },
+    {
+      "id": "arm/food/aminal/mutton",
+      "title": "生羊肉",
+      "icon": "mutton",
+      "items": [
+        "mutton"
+      ]
+    },
+    {
+      "id": "arm/food/aminal/porkchop",
+      "title": "生猪排",
+      "icon": "porkchop",
+      "items": [
+        "porkchop"
+      ]
+    },
+    {
+      "id": "arm/food/aminal/rabbit",
+      "title": "生兔肉",
+      "icon": "rabbit",
+      "items": [
+        "rabbit"
+      ]
+    },
+    {
+      "id": "arm/food/aminal/salmon",
+      "title": "生鲑鱼",
+      "icon": "salmon",
+      "items": [
+        "salmon"
+      ]
+    },
+    {
+      "id": "arm/food/aminal/tropical_fish",
+      "title": "热带鱼",
+      "icon": "tropical_fish",
+      "items": [
+        "tropical_fish"
+      ]
+    },
+    {
+      "id": "arm/food/other/beetroot_soup",
+      "title": "甜菜汤",
+      "icon": "beetroot_soup",
+      "items": [
+        "beetroot_soup"
+      ]
+    },
+    {
+      "id": "arm/food/other/bowl",
+      "title": "碗",
+      "icon": "bowl",
+      "items": [
+        "bowl"
+      ]
+    },
+    {
+      "id": "arm/food/other/cake",
+      "title": "蛋糕",
+      "icon": "cake",
+      "items": [
+        "cake"
+      ]
+    },
+    {
+      "id": "arm/food/other/mushroom_stew",
+      "title": "蘑菇煲",
+      "icon": "mushroom_stew",
+      "items": [
+        "mushroom_stew"
+      ]
+    },
+    {
+      "id": "arm/food/other/rabbit_stew",
+      "title": "兔肉煲",
+      "icon": "rabbit_stew",
+      "items": [
+        "rabbit_stew"
+      ]
+    },
+    {
+      "id": "arm/food/other/rotten_flesh",
+      "title": "腐肉",
+      "icon": "rotten_flesh",
+      "items": [
+        "rotten_flesh"
+      ]
+    },
+    {
+      "id": "arm/food/plant/apple",
+      "title": "苹果",
+      "icon": "apple",
+      "items": [
+        "apple"
+      ]
+    },
+    {
+      "id": "arm/food/plant/baked_potato",
+      "title": "烤马铃薯",
+      "icon": "baked_potato",
+      "items": [
+        "baked_potato"
+      ]
+    },
+    {
+      "id": "arm/food/plant/beetroot",
+      "title": "甜菜根",
+      "icon": "beetroot",
+      "items": [
+        "beetroot"
+      ]
+    },
+    {
+      "id": "arm/food/plant/bread",
+      "title": "面包",
+      "icon": "bread",
+      "items": [
+        "bread"
+      ]
+    },
+    {
+      "id": "arm/food/plant/carrot",
+      "title": "胡萝卜",
+      "icon": "carrot",
+      "items": [
+        "carrot"
+      ]
+    },
+    {
+      "id": "arm/food/plant/cookie",
+      "title": "曲奇",
+      "icon": "cookie",
+      "items": [
+        "cookie"
+      ]
+    },
+    {
+      "id": "arm/food/plant/dried_kelp",
+      "title": "干海带",
+      "icon": "dried_kelp",
+      "items": [
+        "dried_kelp"
+      ]
+    },
+    {
+      "id": "arm/food/plant/dried_kelp_block",
+      "title": "干海带块",
+      "icon": "dried_kelp_block",
+      "items": [
+        "dried_kelp_block"
+      ]
+    },
+    {
+      "id": "arm/food/plant/golden_apple",
+      "title": "金苹果属",
+      "icon": "golden_apple",
+      "items": [
+        "golden_apple",
+        "enchanted_golden_apple"
+      ]
+    },
+    {
+      "id": "arm/food/plant/melon",
+      "title": "西瓜",
+      "icon": "melon",
+      "items": [
+        "melon"
+      ]
+    },
+    {
+      "id": "arm/food/plant/melon_slice",
+      "title": "西瓜片",
+      "icon": "melon_slice",
+      "items": [
+        "melon_slice"
+      ]
+    },
+    {
+      "id": "arm/food/plant/poisonous_potato",
+      "title": "毒马铃薯",
+      "icon": "poisonous_potato",
+      "items": [
+        "poisonous_potato"
+      ]
+    },
+    {
+      "id": "arm/food/plant/potato",
+      "title": "马铃薯",
+      "icon": "potato",
+      "items": [
+        "potato"
+      ]
+    },
+    {
+      "id": "arm/food/plant/pumpkin_pie",
+      "title": "南瓜派",
+      "icon": "pumpkin_pie",
+      "items": [
+        "pumpkin_pie"
+      ]
+    },
+    {
+      "id": "arm/food/plant/sweet_berries",
+      "title": "甜浆果",
+      "icon": "sweet_berries",
+      "items": [
+        "sweet_berries"
+      ]
+    },
+    {
+      "id": "arm/tool/apsh/diamond_axe",
+      "title": "斧属",
+      "icon": "diamond_axe",
+      "items": [
+        "diamond_axe",
+        "wooden_axe",
+        "stone_axe",
+        "golden_axe",
+        "iron_axe",
+        "netherite_axe"
+      ]
+    },
+    {
+      "id": "arm/tool/apsh/diamond_hoe",
+      "title": "锄属",
+      "icon": "diamond_hoe",
+      "items": [
+        "diamond_hoe",
+        "wooden_hoe",
+        "stone_hoe",
+        "golden_hoe",
+        "netherite_hoe",
+        "iron_hoe"
+      ]
+    },
+    {
+      "id": "arm/tool/apsh/diamond_pickaxe",
+      "title": "镐属",
+      "icon": "diamond_pickaxe",
+      "items": [
+        "diamond_pickaxe",
+        "wooden_pickaxe",
+        "stone_pickaxe",
+        "golden_pickaxe",
+        "netherite_pickaxe",
+        "iron_pickaxe"
+      ]
+    },
+    {
+      "id": "arm/tool/apsh/diamond_shovel",
+      "title": "锹属",
+      "icon": "diamond_shovel",
+      "items": [
+        "diamond_shovel",
+        "wooden_shovel",
+        "stone_shovel",
+        "golden_shovel",
+        "netherite_shovel",
+        "iron_shovel"
+      ]
+    },
+    {
+      "id": "arm/tool/information/birch_sign",
+      "title": "告示牌属",
+      "icon": "birch_sign",
+      "items": [
+        "birch_sign",
+        "acacia_sign",
+        "dark_oak_sign",
+        "crimson_sign",
+        "jungle_sign",
+        "oak_sign",
+        "spruce_sign",
+        "warped_sign",
+        "mangrove_sign",
+        "cherry_sign",
+        "bamboo_sign"
+      ]
+    },
+    {
+      "id": "arm/tool/information/book",
+      "title": "书",
+      "icon": "book",
+      "items": [
+        "book"
+      ]
+    },
+    {
+      "id": "arm/tool/information/clock",
+      "title": "时钟",
+      "icon": "clock",
+      "items": [
+        "clock"
+      ]
+    },
+    {
+      "id": "arm/tool/information/compass",
+      "title": "指南针",
+      "icon": "compass",
+      "items": [
+        "compass"
+      ]
+    },
+    {
+      "id": "arm/tool/information/echo_shard",
+      "title": "回响碎片",
+      "icon": "echo_shard",
+      "items": [
+        "echo_shard"
+      ]
+    },
+    {
+      "id": "arm/tool/information/item_frame",
+      "title": "物品展示框属",
+      "icon": "item_frame",
+      "items": [
+        "item_frame",
+        "glow_item_frame"
+      ]
+    },
+    {
+      "id": "arm/tool/information/map",
+      "title": "地图属",
+      "icon": "map",
+      "items": [
+        "map",
+        "filled_map"
+      ]
+    },
+    {
+      "id": "arm/tool/information/name_tag",
+      "title": "命名牌",
+      "icon": "name_tag",
+      "items": [
+        "name_tag"
+      ]
+    },
+    {
+      "id": "arm/tool/information/painting",
+      "title": "画",
+      "icon": "painting",
+      "items": [
+        "painting"
+      ]
+    },
+    {
+      "id": "arm/tool/information/paper",
+      "title": "纸",
+      "icon": "paper",
+      "items": [
+        "paper"
+      ]
+    },
+    {
+      "id": "arm/tool/information/recovery_compass",
+      "title": "追溯指针",
+      "icon": "recovery_compass",
+      "items": [
+        "recovery_compass"
+      ]
+    },
+    {
+      "id": "arm/tool/information/writable_book",
+      "title": "书与笔",
+      "icon": "writable_book",
+      "items": [
+        "writable_book"
+      ]
+    },
+    {
+      "id": "arm/tool/information/written_book",
+      "title": "成书",
+      "icon": "written_book",
+      "items": [
+        "written_book"
+      ]
+    },
+    {
+      "id": "arm/tool/normal/bucket",
+      "title": "铁桶",
+      "icon": "bucket",
+      "items": [
+        "bucket"
+      ]
+    },
+    {
+      "id": "arm/tool/normal/flint_and_steel",
+      "title": "打火石",
+      "icon": "flint_and_steel",
+      "items": [
+        "flint_and_steel"
+      ]
+    },
+    {
+      "id": "arm/tool/normal/lava_bucket",
+      "title": "熔岩桶",
+      "icon": "lava_bucket",
+      "items": [
+        "lava_bucket"
+      ]
+    },
+    {
+      "id": "arm/tool/normal/lead",
+      "title": "拴绳",
+      "icon": "lead",
+      "items": [
+        "lead"
+      ]
+    },
+    {
+      "id": "arm/tool/normal/milk_bucket",
+      "title": "奶桶",
+      "icon": "milk_bucket",
+      "items": [
+        "milk_bucket"
+      ]
+    },
+    {
+      "id": "arm/tool/normal/powder_snow_bucket",
+      "title": "细雪桶",
+      "icon": "powder_snow_bucket",
+      "items": [
+        "powder_snow_bucket"
+      ]
+    },
+    {
+      "id": "arm/tool/normal/salmon_bucket",
+      "title": "生物桶属",
+      "icon": "salmon_bucket",
+      "items": [
+        "salmon_bucket",
+        "cod_bucket",
+        "pufferfish_bucket",
+        "tropical_fish_bucket",
+        "axolotl_bucket",
+        "tadpole_bucket"
+      ]
+    },
+    {
+      "id": "arm/tool/normal/shears",
+      "title": "剪刀",
+      "icon": "shears",
+      "items": [
+        "shears"
+      ]
+    },
+    {
+      "id": "arm/tool/normal/spyglass",
+      "title": "望远镜",
+      "icon": "spyglass",
+      "items": [
+        "spyglass"
+      ]
+    },
+    {
+      "id": "arm/tool/normal/water_bucket",
+      "title": "水桶",
+      "icon": "water_bucket",
+      "items": [
+        "water_bucket"
+      ]
+    },
+    {
+      "id": "build/build/fence/birch_fence",
+      "title": "栅栏属",
+      "icon": "birch_fence",
+      "items": [
+        "birch_fence",
+        "crimson_fence",
+        "acacia_fence",
+        "dark_oak_fence",
+        "jungle_fence",
+        "oak_fence",
+        "spruce_fence",
+        "warped_fence",
+        "mangrove_fence",
+        "nether_brick_fence",
+        "cherry_fence",
+        "bamboo_fence"
+      ]
+    },
+    {
+      "id": "build/build/fence/chain",
+      "title": "锁链",
+      "icon": "chain",
+      "items": [
+        "chain"
+      ]
+    },
+    {
+      "id": "build/build/fence/cobblestone_wall",
+      "title": "墙属",
+      "icon": "cobblestone_wall",
+      "items": [
+        "cobblestone_wall",
+        "mossy_cobblestone_wall",
+        "mossy_stone_brick_wall",
+        "stone_brick_wall",
+        "andesite_wall",
+        "diorite_wall",
+        "granite_wall",
+        "red_sandstone_wall",
+        "sandstone_wall",
+        "brick_wall",
+        "end_stone_brick_wall",
+        "nether_brick_wall",
+        "red_nether_brick_wall",
+        "mud_brick_wall",
+        "prismarine_wall",
+        "blackstone_wall",
+        "polished_blackstone_brick_wall",
+        "polished_blackstone_wall",
+        "cobbled_deepslate_wall",
+        "deepslate_brick_wall",
+        "polished_deepslate_wall",
+        "deepslate_tile_wall"
+      ]
+    },
+    {
+      "id": "build/build/fence/iron_bars",
+      "title": "铁栏杆",
+      "icon": "iron_bars",
+      "items": [
+        "iron_bars"
+      ]
+    },
+    {
+      "id": "build/build/ladder/birch_slab",
+      "title": "台阶属",
+      "icon": "birch_slab",
+      "items": [
+        "birch_slab",
+        "acacia_slab",
+        "dark_oak_slab",
+        "crimson_slab",
+        "jungle_slab",
+        "oak_slab",
+        "spruce_slab",
+        "warped_slab",
+        "mangrove_slab",
+        "cut_copper_slab",
+        "exposed_cut_copper_slab",
+        "oxidized_cut_copper_slab",
+        "waxed_cut_copper_slab",
+        "waxed_exposed_cut_copper_slab",
+        "waxed_oxidized_cut_copper_slab",
+        "waxed_weathered_cut_copper_slab",
+        "weathered_cut_copper_slab",
+        "cobblestone_slab",
+        "mossy_cobblestone_slab",
+        "smooth_stone_slab",
+        "stone_slab",
+        "stone_brick_slab",
+        "mossy_stone_brick_slab",
+        "andesite_slab",
+        "diorite_slab",
+        "granite_slab",
+        "polished_andesite_slab",
+        "polished_diorite_slab",
+        "polished_granite_slab",
+        "sandstone_slab",
+        "smooth_sandstone_slab",
+        "cut_sandstone_slab",
+        "red_sandstone_slab",
+        "smooth_red_sandstone_slab",
+        "cut_red_sandstone_slab",
+        "quartz_slab",
+        "smooth_quartz_slab",
+        "brick_slab",
+        "end_stone_brick_slab",
+        "purpur_slab",
+        "nether_brick_slab",
+        "red_nether_brick_slab",
+        "mud_brick_slab",
+        "prismarine_brick_slab",
+        "prismarine_slab",
+        "dark_prismarine_slab",
+        "polished_blackstone_brick_slab",
+        "blackstone_slab",
+        "polished_blackstone_slab",
+        "deepslate_brick_slab",
+        "polished_deepslate_slab",
+        "cobbled_deepslate_slab",
+        "deepslate_tile_slab",
+        "cherry_slab",
+        "bamboo_slab",
+        "bamboo_mosaic_slab"
+      ]
+    },
+    {
+      "id": "build/build/ladder/birch_stairs",
+      "title": "楼梯属",
+      "icon": "birch_stairs",
+      "items": [
+        "birch_stairs",
+        "acacia_stairs",
+        "crimson_stairs",
+        "dark_oak_stairs",
+        "jungle_stairs",
+        "oak_stairs",
+        "spruce_stairs",
+        "warped_stairs",
+        "mangrove_stairs",
+        "cut_copper_stairs",
+        "exposed_cut_copper_stairs",
+        "oxidized_cut_copper_stairs",
+        "waxed_cut_copper_stairs",
+        "waxed_exposed_cut_copper_stairs",
+        "waxed_oxidized_cut_copper_stairs",
+        "waxed_weathered_cut_copper_stairs",
+        "weathered_cut_copper_stairs",
+        "stone_stairs",
+        "cobblestone_stairs",
+        "mossy_cobblestone_stairs",
+        "stone_brick_stairs",
+        "mossy_stone_brick_stairs",
+        "andesite_stairs",
+        "diorite_stairs",
+        "granite_stairs",
+        "polished_andesite_stairs",
+        "polished_diorite_stairs",
+        "polished_granite_stairs",
+        "red_sandstone_stairs",
+        "sandstone_stairs",
+        "smooth_red_sandstone_stairs",
+        "smooth_sandstone_stairs",
+        "quartz_stairs",
+        "smooth_quartz_stairs",
+        "brick_stairs",
+        "mud_brick_stairs",
+        "end_stone_brick_stairs",
+        "purpur_stairs",
+        "nether_brick_stairs",
+        "red_nether_brick_stairs",
+        "dark_prismarine_stairs",
+        "prismarine_stairs",
+        "prismarine_brick_stairs",
+        "blackstone_stairs",
+        "polished_blackstone_brick_stairs",
+        "polished_blackstone_stairs",
+        "cobbled_deepslate_stairs",
+        "deepslate_brick_stairs",
+        "polished_deepslate_stairs",
+        "deepslate_tile_stairs",
+        "cherry_stairs",
+        "bamboo_stairs",
+        "bamboo_mosaic_stairs"
+      ]
+    },
+    {
+      "id": "build/build/ladder/cobweb",
+      "title": "蜘蛛网",
+      "icon": "cobweb",
+      "items": [
+        "cobweb"
+      ]
+    },
+    {
+      "id": "build/build/ladder/ladder",
+      "title": "梯子",
+      "icon": "ladder",
+      "items": [
+        "ladder"
+      ]
+    },
+    {
+      "id": "build/build/ladder/scaffolding",
+      "title": "脚手架",
+      "icon": "scaffolding",
+      "items": [
+        "scaffolding"
+      ]
+    },
+    {
+      "id": "build/build/ladder/twisting_vines",
+      "title": "缠怨藤",
+      "icon": "twisting_vines",
+      "items": [
+        "twisting_vines"
+      ]
+    },
+    {
+      "id": "build/build/ladder/vine",
+      "title": "藤蔓",
+      "icon": "vine",
+      "items": [
+        "vine"
+      ]
+    },
+    {
+      "id": "build/build/ladder/weeping_vines",
+      "title": "垂泪藤",
+      "icon": "weeping_vines",
+      "items": [
+        "weeping_vines"
+      ]
+    },
+    {
+      "id": "build/build/landmark/beacon",
+      "title": "信标",
+      "icon": "beacon",
+      "items": [
+        "beacon"
+      ]
+    },
+    {
+      "id": "build/build/landmark/bell",
+      "title": "钟",
+      "icon": "bell",
+      "items": [
+        "bell"
+      ]
+    },
+    {
+      "id": "build/build/landmark/conduit",
+      "title": "潮涌核心",
+      "icon": "conduit",
+      "items": [
+        "conduit"
+      ]
+    },
+    {
+      "id": "build/build/landmark/heart_of_the_sea",
+      "title": "海洋之心",
+      "icon": "heart_of_the_sea",
+      "items": [
+        "heart_of_the_sea"
+      ]
+    },
+    {
+      "id": "build/build/landmark/lodestone",
+      "title": "磁石",
+      "icon": "lodestone",
+      "items": [
+        "lodestone"
+      ]
+    },
+    {
+      "id": "build/build/landmark/nautilus_shell",
+      "title": "鹦鹉螺壳",
+      "icon": "nautilus_shell",
+      "items": [
+        "nautilus_shell"
+      ]
+    },
+    {
+      "id": "build/build/landmark/nether_star",
+      "title": "下界之星",
+      "icon": "nether_star",
+      "items": [
+        "nether_star"
+      ]
+    },
+    {
+      "id": "build/build/landmark/respawn_anchor",
+      "title": "重生锚",
+      "icon": "respawn_anchor",
+      "items": [
+        "respawn_anchor"
+      ]
+    },
+    {
+      "id": "build/build/light/end_rod",
+      "title": "末地烛",
+      "icon": "end_rod",
+      "items": [
+        "end_rod"
+      ]
+    },
+    {
+      "id": "build/build/light/glow_berries",
+      "title": "发光浆果",
+      "icon": "glow_berries",
+      "items": [
+        "glow_berries"
+      ]
+    },
+    {
+      "id": "build/build/light/glow_lichen",
+      "title": "发光地衣",
+      "icon": "glow_lichen",
+      "items": [
+        "glow_lichen"
+      ]
+    },
+    {
+      "id": "build/build/light/glowstone",
+      "title": "荧石",
+      "icon": "glowstone",
+      "items": [
+        "glowstone"
+      ]
+    },
+    {
+      "id": "build/build/light/jack_o_lantern",
+      "title": "南瓜灯",
+      "icon": "jack_o_lantern",
+      "items": [
+        "jack_o_lantern"
+      ]
+    },
+    {
+      "id": "build/build/light/ochre_froglight",
+      "title": "蛙明灯属",
+      "icon": "ochre_froglight",
+      "items": [
+        "ochre_froglight",
+        "pearlescent_froglight",
+        "verdant_froglight"
+      ]
+    },
+    {
+      "id": "build/build/light/sea_lantern",
+      "title": "海晶灯",
+      "icon": "sea_lantern",
+      "items": [
+        "sea_lantern"
+      ]
+    },
+    {
+      "id": "build/build/light/shroomlight",
+      "title": "菌光体",
+      "icon": "shroomlight",
+      "items": [
+        "shroomlight"
+      ]
+    },
+    {
+      "id": "build/build/light/soul_campfire",
+      "title": "营火属",
+      "icon": "soul_campfire",
+      "items": [
+        "soul_campfire",
+        "campfire"
+      ]
+    },
+    {
+      "id": "build/build/light/soul_lantern",
+      "title": "灯笼属",
+      "icon": "soul_lantern",
+      "items": [
+        "soul_lantern",
+        "lantern"
+      ]
+    },
+    {
+      "id": "build/build/light/torch",
+      "title": "火把属",
+      "icon": "torch",
+      "items": [
+        "torch",
+        "soul_torch"
+      ]
+    },
+    {
+      "id": "build/gui/chest/armor_stand",
+      "title": "盔甲架",
+      "icon": "armor_stand",
+      "items": [
+        "armor_stand"
+      ]
+    },
+    {
+      "id": "build/gui/chest/barrel",
+      "title": "木桶",
+      "icon": "barrel",
+      "items": [
+        "barrel"
+      ]
+    },
+    {
+      "id": "build/gui/chest/chest",
+      "title": "箱子",
+      "icon": "chest",
+      "items": [
+        "chest"
+      ]
+    },
+    {
+      "id": "build/gui/chest/ender_chest",
+      "title": "末影箱",
+      "icon": "ender_chest",
+      "items": [
+        "ender_chest"
+      ]
+    },
+    {
+      "id": "build/gui/chest/flower_pot",
+      "title": "花盆",
+      "icon": "flower_pot",
+      "items": [
+        "flower_pot"
+      ]
+    },
+    {
+      "id": "build/gui/chest/trapped_chest",
+      "title": "陷阱箱",
+      "icon": "trapped_chest",
+      "items": [
+        "trapped_chest"
+      ]
+    },
+    {
+      "id": "build/gui/work_table/anvil",
+      "title": "铁砧属",
+      "icon": "anvil",
+      "items": [
+        "anvil",
+        "chipped_anvil",
+        "damaged_anvil"
+      ]
+    },
+    {
+      "id": "build/gui/work_table/blast_furnace",
+      "title": "高炉",
+      "icon": "blast_furnace",
+      "items": [
+        "blast_furnace"
+      ]
+    },
+    {
+      "id": "build/gui/work_table/cartography_table",
+      "title": "制图台",
+      "icon": "cartography_table",
+      "items": [
+        "cartography_table"
+      ]
+    },
+    {
+      "id": "build/gui/work_table/composter",
+      "title": "堆肥桶",
+      "icon": "composter",
+      "items": [
+        "composter"
+      ]
+    },
+    {
+      "id": "build/gui/work_table/crafting_table",
+      "title": "工作台",
+      "icon": "crafting_table",
+      "items": [
+        "crafting_table"
+      ]
+    },
+    {
+      "id": "build/gui/work_table/fletching_table",
+      "title": "制箭台",
+      "icon": "fletching_table",
+      "items": [
+        "fletching_table"
+      ]
+    },
+    {
+      "id": "build/gui/work_table/furnace",
+      "title": "熔炉",
+      "icon": "furnace",
+      "items": [
+        "furnace"
+      ]
+    },
+    {
+      "id": "build/gui/work_table/grindstone",
+      "title": "砂轮",
+      "icon": "grindstone",
+      "items": [
+        "grindstone"
+      ]
+    },
+    {
+      "id": "build/gui/work_table/lectern",
+      "title": "讲台",
+      "icon": "lectern",
+      "items": [
+        "lectern"
+      ]
+    },
+    {
+      "id": "build/gui/work_table/loom",
+      "title": "织布机",
+      "icon": "loom",
+      "items": [
+        "loom"
+      ]
+    },
+    {
+      "id": "build/gui/work_table/smithing_table",
+      "title": "锻造台",
+      "icon": "smithing_table",
+      "items": [
+        "smithing_table"
+      ]
+    },
+    {
+      "id": "build/gui/work_table/smoker",
+      "title": "烟熏炉",
+      "icon": "smoker",
+      "items": [
+        "smoker"
+      ]
+    },
+    {
+      "id": "build/gui/work_table/stonecutter",
+      "title": "切石机",
+      "icon": "stonecutter",
+      "items": [
+        "stonecutter"
+      ]
+    },
+    {
+      "id": "build/redstone/machine/big_dripleaf",
+      "title": "大型垂滴叶",
+      "icon": "big_dripleaf",
+      "items": [
+        "big_dripleaf"
+      ]
+    },
+    {
+      "id": "build/redstone/machine/birch_door",
+      "title": "门属",
+      "icon": "birch_door",
+      "items": [
+        "birch_door",
+        "mangrove_door",
+        "warped_door",
+        "spruce_door",
+        "oak_door",
+        "jungle_door",
+        "dark_oak_door",
+        "crimson_door",
+        "acacia_door",
+        "iron_door",
+        "cherry_door",
+        "bamboo_door"
+      ]
+    },
+    {
+      "id": "build/redstone/machine/birch_fence_gate",
+      "title": "栅栏门属",
+      "icon": "birch_fence_gate",
+      "items": [
+        "birch_fence_gate",
+        "acacia_fence_gate",
+        "warped_fence_gate",
+        "jungle_fence_gate",
+        "crimson_fence_gate",
+        "mangrove_fence_gate",
+        "dark_oak_fence_gate",
+        "oak_fence_gate",
+        "spruce_fence_gate",
+        "cherry_fence_gate",
+        "bamboo_fence_gate"
+      ]
+    },
+    {
+      "id": "build/redstone/machine/birch_trapdoor",
+      "title": "活板门属",
+      "icon": "birch_trapdoor",
+      "items": [
+        "birch_trapdoor",
+        "crimson_trapdoor",
+        "dark_oak_trapdoor",
+        "acacia_trapdoor",
+        "oak_trapdoor",
+        "jungle_trapdoor",
+        "spruce_trapdoor",
+        "warped_trapdoor",
+        "mangrove_trapdoor",
+        "iron_trapdoor",
+        "cherry_trapdoor",
+        "bamboo_trapdoor"
+      ]
+    },
+    {
+      "id": "build/redstone/machine/dispenser",
+      "title": "发射器",
+      "icon": "dispenser",
+      "items": [
+        "dispenser"
+      ]
+    },
+    {
+      "id": "build/redstone/machine/dropper",
+      "title": "投掷器",
+      "icon": "dropper",
+      "items": [
+        "dropper"
+      ]
+    },
+    {
+      "id": "build/redstone/machine/honey_block",
+      "title": "蜂蜜块",
+      "icon": "honey_block",
+      "items": [
+        "honey_block"
+      ]
+    },
+    {
+      "id": "build/redstone/machine/hopper",
+      "title": "漏斗",
+      "icon": "hopper",
+      "items": [
+        "hopper"
+      ]
+    },
+    {
+      "id": "build/redstone/machine/piston",
+      "title": "活塞属",
+      "icon": "piston",
+      "items": [
+        "piston",
+        "sticky_piston"
+      ]
+    },
+    {
+      "id": "build/redstone/machine/slime_ball",
+      "title": "黏液球",
+      "icon": "slime_ball",
+      "items": [
+        "slime_ball"
+      ]
+    },
+    {
+      "id": "build/redstone/machine/slime_block",
+      "title": "黏液块",
+      "icon": "slime_block",
+      "items": [
+        "slime_block"
+      ]
+    },
+    {
+      "id": "build/redstone/machine/small_dripleaf",
+      "title": "小型垂滴叶",
+      "icon": "small_dripleaf",
+      "items": [
+        "small_dripleaf"
+      ]
+    },
+    {
+      "id": "build/redstone/music/disc_fragment_5",
+      "title": "唱片残片5",
+      "icon": "disc_fragment_5",
+      "items": [
+        "disc_fragment_5"
+      ]
+    },
+    {
+      "id": "build/redstone/music/goat_horn",
+      "title": "山羊角",
+      "icon": "goat_horn",
+      "items": [
+        "goat_horn"
+      ]
+    },
+    {
+      "id": "build/redstone/music/jukebox",
+      "title": "唱片机",
+      "icon": "jukebox",
+      "items": [
+        "jukebox"
+      ]
+    },
+    {
+      "id": "build/redstone/music/music_disc_5",
+      "title": "音乐唱片属",
+      "icon": "music_disc_5",
+      "items": [
+        "music_disc_5",
+        "music_disc_11",
+        "music_disc_13",
+        "music_disc_blocks",
+        "music_disc_cat",
+        "music_disc_chirp",
+        "music_disc_far",
+        "music_disc_mall",
+        "music_disc_mellohi",
+        "music_disc_otherside",
+        "music_disc_pigstep",
+        "music_disc_stal",
+        "music_disc_strad",
+        "music_disc_wait",
+        "music_disc_ward",
+        "music_disc_relic"
+      ]
+    },
+    {
+      "id": "build/redstone/music/note_block",
+      "title": "音符盒",
+      "icon": "note_block",
+      "items": [
+        "note_block"
+      ]
+    },
+    {
+      "id": "build/redstone/power/birch_button",
+      "title": "按钮属",
+      "icon": "birch_button",
+      "items": [
+        "birch_button",
+        "acacia_button",
+        "crimson_button",
+        "dark_oak_button",
+        "jungle_button",
+        "oak_button",
+        "spruce_button",
+        "warped_button",
+        "mangrove_button",
+        "stone_button",
+        "polished_blackstone_button",
+        "cherry_button",
+        "bamboo_button"
+      ]
+    },
+    {
+      "id": "build/redstone/power/birch_pressure_plate",
+      "title": "压力板属",
+      "icon": "birch_pressure_plate",
+      "items": [
+        "birch_pressure_plate",
+        "mangrove_pressure_plate",
+        "warped_pressure_plate",
+        "spruce_pressure_plate",
+        "oak_pressure_plate",
+        "jungle_pressure_plate",
+        "dark_oak_pressure_plate",
+        "crimson_pressure_plate",
+        "acacia_pressure_plate",
+        "stone_pressure_plate",
+        "polished_blackstone_pressure_plate",
+        "heavy_weighted_pressure_plate",
+        "light_weighted_pressure_plate",
+        "cherry_pressure_plate",
+        "bamboo_pressure_plate"
+      ]
+    },
+    {
+      "id": "build/redstone/power/daylight_detector",
+      "title": "阳光探测器",
+      "icon": "daylight_detector",
+      "items": [
+        "daylight_detector"
+      ]
+    },
+    {
+      "id": "build/redstone/power/lever",
+      "title": "拉杆",
+      "icon": "lever",
+      "items": [
+        "lever"
+      ]
+    },
+    {
+      "id": "build/redstone/power/lightning_rod",
+      "title": "避雷针",
+      "icon": "lightning_rod",
+      "items": [
+        "lightning_rod"
+      ]
+    },
+    {
+      "id": "build/redstone/power/observer",
+      "title": "侦测器",
+      "icon": "observer",
+      "items": [
+        "observer"
+      ]
+    },
+    {
+      "id": "build/redstone/power/redstone_block",
+      "title": "红石块",
+      "icon": "redstone_block",
+      "items": [
+        "redstone_block"
+      ]
+    },
+    {
+      "id": "build/redstone/power/redstone_torch",
+      "title": "红石火把",
+      "icon": "redstone_torch",
+      "items": [
+        "redstone_torch"
+      ]
+    },
+    {
+      "id": "build/redstone/power/string",
+      "title": "线",
+      "icon": "string",
+      "items": [
+        "string"
+      ]
+    },
+    {
+      "id": "build/redstone/power/target",
+      "title": "标靶",
+      "icon": "target",
+      "items": [
+        "target"
+      ]
+    },
+    {
+      "id": "build/redstone/power/tripwire_hook",
+      "title": "绊线钩",
+      "icon": "tripwire_hook",
+      "items": [
+        "tripwire_hook"
+      ]
+    },
+    {
+      "id": "build/redstone/sculk/sculk",
+      "title": "幽匿块",
+      "icon": "sculk",
+      "items": [
+        "sculk"
+      ]
+    },
+    {
+      "id": "build/redstone/sculk/sculk_catalyst",
+      "title": "幽匿催发体",
+      "icon": "sculk_catalyst",
+      "items": [
+        "sculk_catalyst"
+      ]
+    },
+    {
+      "id": "build/redstone/sculk/sculk_sensor",
+      "title": "幽匿感测体属",
+      "icon": "sculk_sensor",
+      "items": [
+        "sculk_sensor",
+        "calibrated_sculk_sensor"
+      ]
+    },
+    {
+      "id": "build/redstone/sculk/sculk_shrieker",
+      "title": "幽匿尖啸体",
+      "icon": "sculk_shrieker",
+      "items": [
+        "sculk_shrieker"
+      ]
+    },
+    {
+      "id": "build/redstone/sculk/sculk_vein",
+      "title": "幽匿脉络",
+      "icon": "sculk_vein",
+      "items": [
+        "sculk_vein"
+      ]
+    },
+    {
+      "id": "build/redstone/wire/comparator",
+      "title": "红石比较器",
+      "icon": "comparator",
+      "items": [
+        "comparator"
+      ]
+    },
+    {
+      "id": "build/redstone/wire/redstone",
+      "title": "红石粉",
+      "icon": "redstone",
+      "items": [
+        "redstone"
+      ]
+    },
+    {
+      "id": "build/redstone/wire/repeater",
+      "title": "红石中继器",
+      "icon": "repeater",
+      "items": [
+        "repeater"
+      ]
+    },
+    {
+      "id": "build/traffic/fly/chorus_fruit",
+      "title": "紫颂果",
+      "icon": "chorus_fruit",
+      "items": [
+        "chorus_fruit"
+      ]
+    },
+    {
+      "id": "build/traffic/fly/elytra",
+      "title": "鞘翅",
+      "icon": "elytra",
+      "items": [
+        "elytra"
+      ]
+    },
+    {
+      "id": "build/traffic/fly/ender_pearl",
+      "title": "末影珍珠",
+      "icon": "ender_pearl",
+      "items": [
+        "ender_pearl"
+      ]
+    },
+    {
+      "id": "build/traffic/minecart/chest_minecart",
+      "title": "运输矿车",
+      "icon": "chest_minecart",
+      "items": [
+        "chest_minecart"
+      ]
+    },
+    {
+      "id": "build/traffic/minecart/furnace_minecart",
+      "title": "动力矿车",
+      "icon": "furnace_minecart",
+      "items": [
+        "furnace_minecart"
+      ]
+    },
+    {
+      "id": "build/traffic/minecart/hopper_minecart",
+      "title": "漏斗矿车",
+      "icon": "hopper_minecart",
+      "items": [
+        "hopper_minecart"
+      ]
+    },
+    {
+      "id": "build/traffic/minecart/minecart",
+      "title": "矿车",
+      "icon": "minecart",
+      "items": [
+        "minecart"
+      ]
+    },
+    {
+      "id": "build/traffic/minecart/tnt_minecart",
+      "title": "TNT矿车",
+      "icon": "tnt_minecart",
+      "items": [
+        "tnt_minecart"
+      ]
+    },
+    {
+      "id": "build/traffic/rail/activator_rail",
+      "title": "激活铁轨",
+      "icon": "activator_rail",
+      "items": [
+        "activator_rail"
+      ]
+    },
+    {
+      "id": "build/traffic/rail/detector_rail",
+      "title": "探测铁轨",
+      "icon": "detector_rail",
+      "items": [
+        "detector_rail"
+      ]
+    },
+    {
+      "id": "build/traffic/rail/powered_rail",
+      "title": "动力铁轨",
+      "icon": "powered_rail",
+      "items": [
+        "powered_rail"
+      ]
+    },
+    {
+      "id": "build/traffic/rail/rail",
+      "title": "铁轨",
+      "icon": "rail",
+      "items": [
+        "rail"
+      ]
+    },
+    {
+      "id": "build/traffic/ride/birch_boat",
+      "title": "船属",
+      "icon": "birch_boat",
+      "items": [
+        "birch_boat",
+        "oak_boat",
+        "spruce_boat",
+        "jungle_boat",
+        "acacia_boat",
+        "dark_oak_boat",
+        "mangrove_boat",
+        "cherry_boat",
+        "bamboo_raft"
+      ]
+    },
+    {
+      "id": "build/traffic/ride/birch_chest_boat",
+      "title": "运输船属",
+      "icon": "birch_chest_boat",
+      "items": [
+        "birch_chest_boat",
+        "oak_chest_boat",
+        "spruce_chest_boat",
+        "jungle_chest_boat",
+        "acacia_chest_boat",
+        "dark_oak_chest_boat",
+        "mangrove_chest_boat",
+        "cherry_chest_boat",
+        "bamboo_chest_raft"
+      ]
+    },
+    {
+      "id": "build/traffic/ride/carrot_on_a_stick",
+      "title": "胡萝卜钓竿",
+      "icon": "carrot_on_a_stick",
+      "items": [
+        "carrot_on_a_stick"
+      ]
+    },
+    {
+      "id": "build/traffic/ride/fishing_rod",
+      "title": "钓鱼竿",
+      "icon": "fishing_rod",
+      "items": [
+        "fishing_rod"
+      ]
+    },
+    {
+      "id": "build/traffic/ride/iron_horse_armor",
+      "title": "马铠属",
+      "icon": "iron_horse_armor",
+      "items": [
+        "iron_horse_armor",
+        "leather_horse_armor",
+        "golden_horse_armor",
+        "diamond_horse_armor"
+      ]
+    },
+    {
+      "id": "build/traffic/ride/saddle",
+      "title": "鞍",
+      "icon": "saddle",
+      "items": [
+        "saddle"
+      ]
+    },
+    {
+      "id": "build/traffic/ride/warped_fungus_on_a_stick",
+      "title": "诡异菌钓竿",
+      "icon": "warped_fungus_on_a_stick",
+      "items": [
+        "warped_fungus_on_a_stick"
+      ]
+    },
+    {
+      "id": "life/aminal/bee/bee_nest",
+      "title": "蜂巢属",
+      "icon": "bee_nest",
+      "items": [
+        "bee_nest",
+        "beehive"
+      ]
+    },
+    {
+      "id": "life/aminal/bee/honeycomb",
+      "title": "蜜脾",
+      "icon": "honeycomb",
+      "items": [
+        "honeycomb"
+      ]
+    },
+    {
+      "id": "life/aminal/bee/honeycomb_block",
+      "title": "蜜脾块",
+      "icon": "honeycomb_block",
+      "items": [
+        "honeycomb_block"
+      ]
+    },
+    {
+      "id": "life/aminal/coral/brain_coral",
+      "title": "珊瑚属",
+      "icon": "brain_coral",
+      "items": [
+        "brain_coral",
+        "fire_coral",
+        "horn_coral",
+        "tube_coral",
+        "bubble_coral",
+        "dead_bubble_coral",
+        "dead_brain_coral",
+        "dead_fire_coral",
+        "dead_horn_coral",
+        "dead_tube_coral"
+      ]
+    },
+    {
+      "id": "life/aminal/coral/brain_coral_block",
+      "title": "珊瑚块属",
+      "icon": "brain_coral_block",
+      "items": [
+        "brain_coral_block",
+        "fire_coral_block",
+        "horn_coral_block",
+        "bubble_coral_block",
+        "tube_coral_block",
+        "dead_bubble_coral_block",
+        "dead_fire_coral_block",
+        "dead_tube_coral_block",
+        "dead_horn_coral_block",
+        "dead_brain_coral_block"
+      ]
+    },
+    {
+      "id": "life/aminal/coral/brain_coral_fan",
+      "title": "珊瑚扇属",
+      "icon": "brain_coral_fan",
+      "items": [
+        "brain_coral_fan",
+        "bubble_coral_fan",
+        "fire_coral_fan",
+        "horn_coral_fan",
+        "tube_coral_fan",
+        "dead_fire_coral_fan",
+        "dead_bubble_coral_fan",
+        "dead_horn_coral_fan",
+        "dead_brain_coral_fan",
+        "dead_tube_coral_fan"
+      ]
+    },
+    {
+      "id": "life/aminal/egg/egg",
+      "title": "鸡蛋",
+      "icon": "egg",
+      "items": [
+        "egg"
+      ]
+    },
+    {
+      "id": "life/aminal/egg/turtle_egg",
+      "title": "海龟蛋",
+      "icon": "turtle_egg",
+      "items": [
+        "turtle_egg"
+      ]
+    },
+    {
+      "id": "life/aminal/sponge/sponge",
+      "title": "海绵属",
+      "icon": "sponge",
+      "items": [
+        "sponge",
+        "wet_sponge"
+      ]
+    },
+    {
+      "id": "life/fungi/fungus/nether_sprouts",
+      "title": "下界苗",
+      "icon": "nether_sprouts",
+      "items": [
+        "nether_sprouts"
+      ]
+    },
+    {
+      "id": "life/fungi/fungus/warped_fungus",
+      "title": "菌类属",
+      "icon": "warped_fungus",
+      "items": [
+        "warped_fungus",
+        "crimson_fungus"
+      ]
+    },
+    {
+      "id": "life/fungi/fungus/warped_roots",
+      "title": "菌索属",
+      "icon": "warped_roots",
+      "items": [
+        "warped_roots",
+        "crimson_roots"
+      ]
+    },
+    {
+      "id": "life/fungi/fungus/warped_wart_block",
+      "title": "下界疣块属",
+      "icon": "warped_wart_block",
+      "items": [
+        "warped_wart_block",
+        "nether_wart_block"
+      ]
+    },
+    {
+      "id": "life/fungi/mushroom/red_mushroom",
+      "title": "蘑菇属",
+      "icon": "red_mushroom",
+      "items": [
+        "red_mushroom",
+        "brown_mushroom"
+      ]
+    },
+    {
+      "id": "life/fungi/mushroom/red_mushroom_block",
+      "title": "蘑菇方块属",
+      "icon": "red_mushroom_block",
+      "items": [
+        "red_mushroom_block",
+        "brown_mushroom_block",
+        "mushroom_stem"
+      ]
+    },
+    {
+      "id": "life/mob/bone/bone",
+      "title": "骨头",
+      "icon": "bone",
+      "items": [
+        "bone"
+      ]
+    },
+    {
+      "id": "life/mob/bone/bone_block",
+      "title": "骨块",
+      "icon": "bone_block",
+      "items": [
+        "bone_block"
+      ]
+    },
+    {
+      "id": "life/mob/bone/bone_meal",
+      "title": "骨粉",
+      "icon": "bone_meal",
+      "items": [
+        "bone_meal"
+      ]
+    },
+    {
+      "id": "life/mob/dragon_egg/dragon_egg",
+      "title": "龙蛋",
+      "icon": "dragon_egg",
+      "items": [
+        "dragon_egg"
+      ]
+    },
+    {
+      "id": "life/mob/head/skeleton_skull",
+      "title": "生物头颅属",
+      "icon": "skeleton_skull",
+      "items": [
+        "skeleton_skull",
+        "wither_skeleton_skull",
+        "zombie_head",
+        "creeper_head",
+        "dragon_head",
+        "piglin_head"
+      ]
+    },
+    {
+      "id": "life/plant/crop/beetroot_seeds",
+      "title": "甜菜种子",
+      "icon": "beetroot_seeds",
+      "items": [
+        "beetroot_seeds"
+      ]
+    },
+    {
+      "id": "life/plant/crop/cocoa_beans",
+      "title": "可可豆",
+      "icon": "cocoa_beans",
+      "items": [
+        "cocoa_beans"
+      ]
+    },
+    {
+      "id": "life/plant/crop/hay_block",
+      "title": "干草捆",
+      "icon": "hay_block",
+      "items": [
+        "hay_block"
+      ]
+    },
+    {
+      "id": "life/plant/crop/melon_seeds",
+      "title": "西瓜种子",
+      "icon": "melon_seeds",
+      "items": [
+        "melon_seeds"
+      ]
+    },
+    {
+      "id": "life/plant/crop/pumpkin",
+      "title": "南瓜属",
+      "icon": "pumpkin",
+      "items": [
+        "pumpkin",
+        "carved_pumpkin"
+      ]
+    },
+    {
+      "id": "life/plant/crop/pumpkin_seeds",
+      "title": "南瓜种子",
+      "icon": "pumpkin_seeds",
+      "items": [
+        "pumpkin_seeds"
+      ]
+    },
+    {
+      "id": "life/plant/crop/wheat",
+      "title": "小麦",
+      "icon": "wheat",
+      "items": [
+        "wheat"
+      ]
+    },
+    {
+      "id": "life/plant/crop/wheat_seeds",
+      "title": "小麦种子",
+      "icon": "wheat_seeds",
+      "items": [
+        "wheat_seeds"
+      ]
+    },
+    {
+      "id": "life/plant/grass/cactus",
+      "title": "仙人掌",
+      "icon": "cactus",
+      "items": [
+        "cactus"
+      ]
+    },
+    {
+      "id": "life/plant/grass/grass",
+      "title": "草丛属",
+      "icon": "grass",
+      "items": [
+        "grass",
+        "tall_grass",
+        "fern",
+        "large_fern"
+      ]
+    },
+    {
+      "id": "life/plant/grass/kelp",
+      "title": "海带",
+      "icon": "kelp",
+      "items": [
+        "kelp"
+      ]
+    },
+    {
+      "id": "life/plant/grass/poppy",
+      "title": "花属",
+      "icon": "poppy",
+      "items": [
+        "poppy",
+        "azure_bluet",
+        "blue_orchid",
+        "dandelion",
+        "allium",
+        "orange_tulip",
+        "pink_tulip",
+        "red_tulip",
+        "white_tulip",
+        "cornflower",
+        "oxeye_daisy",
+        "lily_of_the_valley",
+        "wither_rose",
+        "rose_bush",
+        "sunflower",
+        "peony",
+        "lilac",
+        "torchflower",
+        "pitcher_plant"
+      ]
+    },
+    {
+      "id": "life/plant/grass/sea_pickle",
+      "title": "海泡菜",
+      "icon": "sea_pickle",
+      "items": [
+        "sea_pickle"
+      ]
+    },
+    {
+      "id": "life/plant/grass/seagrass",
+      "title": "海草",
+      "icon": "seagrass",
+      "items": [
+        "seagrass"
+      ]
+    },
+    {
+      "id": "life/plant/grass/sugar_cane",
+      "title": "甘蔗",
+      "icon": "sugar_cane",
+      "items": [
+        "sugar_cane"
+      ]
+    },
+    {
+      "id": "life/plant/single_plant/dead_bush",
+      "title": "枯萎的灌木",
+      "icon": "dead_bush",
+      "items": [
+        "dead_bush"
+      ]
+    },
+    {
+      "id": "life/plant/single_plant/lily_pad",
+      "title": "睡莲",
+      "icon": "lily_pad",
+      "items": [
+        "lily_pad"
+      ]
+    },
+    {
+      "id": "life/plant/single_plant/spore_blossom",
+      "title": "孢子花",
+      "icon": "spore_blossom",
+      "items": [
+        "spore_blossom"
+      ]
+    },
+    {
+      "id": "life/plant/tree/azalea",
+      "title": "杜鹃花丛属",
+      "icon": "azalea",
+      "items": [
+        "azalea",
+        "flowering_azalea"
+      ]
+    },
+    {
+      "id": "life/plant/tree/birch_leaves",
+      "title": "树叶属",
+      "icon": "birch_leaves",
+      "items": [
+        "birch_leaves",
+        "dark_oak_leaves",
+        "jungle_leaves",
+        "oak_leaves",
+        "spruce_leaves",
+        "mangrove_leaves",
+        "acacia_leaves",
+        "azalea_leaves",
+        "flowering_azalea_leaves",
+        "cherry_leaves"
+      ]
+    },
+    {
+      "id": "life/plant/tree/birch_sapling",
+      "title": "树苗属",
+      "icon": "birch_sapling",
+      "items": [
+        "birch_sapling",
+        "dark_oak_sapling",
+        "jungle_sapling",
+        "oak_sapling",
+        "spruce_sapling",
+        "mangrove_propagule",
+        "acacia_sapling",
+        "cherry_sapling"
+      ]
+    },
+    {
+      "id": "life/plant/tree/chorus_flower",
+      "title": "紫颂花",
+      "icon": "chorus_flower",
+      "items": [
+        "chorus_flower"
+      ]
+    },
+    {
+      "id": "life/plant/tree/hanging_roots",
+      "title": "垂根",
+      "icon": "hanging_roots",
+      "items": [
+        "hanging_roots"
+      ]
+    },
+    {
+      "id": "life/plant/tree/mangrove_roots",
+      "title": "红树根",
+      "icon": "mangrove_roots",
+      "items": [
+        "mangrove_roots"
+      ]
+    },
+    {
+      "id": "life/plant/tree/muddy_mangrove_roots",
+      "title": "沾泥的红树根",
+      "icon": "muddy_mangrove_roots",
+      "items": [
+        "muddy_mangrove_roots"
+      ]
+    },
+    {
+      "id": "stone/dirt/brick/brick",
+      "title": "红砖",
+      "icon": "brick",
+      "items": [
+        "brick"
+      ]
+    },
+    {
+      "id": "stone/dirt/brick/bricks",
+      "title": "红砖块",
+      "icon": "bricks",
+      "items": [
+        "bricks"
+      ]
+    },
+    {
+      "id": "stone/dirt/brick/clay",
+      "title": "黏土块",
+      "icon": "clay",
+      "items": [
+        "clay"
+      ]
+    },
+    {
+      "id": "stone/dirt/brick/clay_ball",
+      "title": "黏土球",
+      "icon": "clay_ball",
+      "items": [
+        "clay_ball"
+      ]
+    },
+    {
+      "id": "stone/dirt/brick/nether_brick",
+      "title": "下界砖",
+      "icon": "nether_brick",
+      "items": [
+        "nether_brick"
+      ]
+    },
+    {
+      "id": "stone/dirt/brick/nether_bricks",
+      "title": "下界砖块属",
+      "icon": "nether_bricks",
+      "items": [
+        "nether_bricks",
+        "red_nether_bricks",
+        "chiseled_nether_bricks",
+        "cracked_nether_bricks"
+      ]
+    },
+    {
+      "id": "stone/dirt/dirt/coarse_dirt",
+      "title": "砂土",
+      "icon": "coarse_dirt",
+      "items": [
+        "coarse_dirt"
+      ]
+    },
+    {
+      "id": "stone/dirt/dirt/dirt",
+      "title": "泥土",
+      "icon": "dirt",
+      "items": [
+        "dirt"
+      ]
+    },
+    {
+      "id": "stone/dirt/dirt/grass_block",
+      "title": "草方块",
+      "icon": "grass_block",
+      "items": [
+        "grass_block"
+      ]
+    },
+    {
+      "id": "stone/dirt/dirt/moss_block",
+      "title": "苔藓块",
+      "icon": "moss_block",
+      "items": [
+        "moss_block"
+      ]
+    },
+    {
+      "id": "stone/dirt/dirt/mycelium",
+      "title": "菌丝体",
+      "icon": "mycelium",
+      "items": [
+        "mycelium"
+      ]
+    },
+    {
+      "id": "stone/dirt/dirt/podzol",
+      "title": "灰化土",
+      "icon": "podzol",
+      "items": [
+        "podzol"
+      ]
+    },
+    {
+      "id": "stone/dirt/dirt/rooted_dirt",
+      "title": "缠根泥土",
+      "icon": "rooted_dirt",
+      "items": [
+        "rooted_dirt"
+      ]
+    },
+    {
+      "id": "stone/dirt/mud/mud",
+      "title": "泥巴",
+      "icon": "mud",
+      "items": [
+        "mud"
+      ]
+    },
+    {
+      "id": "stone/dirt/mud/mud_bricks",
+      "title": "泥砖",
+      "icon": "mud_bricks",
+      "items": [
+        "mud_bricks"
+      ]
+    },
+    {
+      "id": "stone/dirt/mud/packed_mud",
+      "title": "泥坯",
+      "icon": "packed_mud",
+      "items": [
+        "packed_mud"
+      ]
+    },
+    {
+      "id": "stone/sand/sand/gravel",
+      "title": "沙砾",
+      "icon": "gravel",
+      "items": [
+        "gravel"
+      ]
+    },
+    {
+      "id": "stone/sand/sand/sand",
+      "title": "沙子属",
+      "icon": "sand",
+      "items": [
+        "sand",
+        "red_sand"
+      ]
+    },
+    {
+      "id": "stone/sand/snow/snow",
+      "title": "雪",
+      "icon": "snow",
+      "items": [
+        "snow"
+      ]
+    },
+    {
+      "id": "stone/sand/snow/snow_block",
+      "title": "雪块",
+      "icon": "snow_block",
+      "items": [
+        "snow_block"
+      ]
+    },
+    {
+      "id": "stone/sand/snow/snowball",
+      "title": "雪球",
+      "icon": "snowball",
+      "items": [
+        "snowball"
+      ]
+    },
+    {
+      "id": "stone/sand/soul_sand/soul_sand",
+      "title": "灵魂沙",
+      "icon": "soul_sand",
+      "items": [
+        "soul_sand"
+      ]
+    },
+    {
+      "id": "stone/sand/soul_sand/soul_soil",
+      "title": "灵魂土",
+      "icon": "soul_soil",
+      "items": [
+        "soul_soil"
+      ]
+    },
+    {
+      "id": "stone/stone/blackstone/blackstone",
+      "title": "黑石",
+      "icon": "blackstone",
+      "items": [
+        "blackstone"
+      ]
+    },
+    {
+      "id": "stone/stone/blackstone/gilded_blackstone",
+      "title": "镶金黑石",
+      "icon": "gilded_blackstone",
+      "items": [
+        "gilded_blackstone"
+      ]
+    },
+    {
+      "id": "stone/stone/blackstone/polished_blackstone",
+      "title": "磨制黑石属",
+      "icon": "polished_blackstone",
+      "items": [
+        "polished_blackstone",
+        "chiseled_polished_blackstone"
+      ]
+    },
+    {
+      "id": "stone/stone/blackstone/polished_blackstone_bricks",
+      "title": "磨制黑石砖属",
+      "icon": "polished_blackstone_bricks",
+      "items": [
+        "polished_blackstone_bricks",
+        "cracked_polished_blackstone_bricks"
+      ]
+    },
+    {
+      "id": "stone/stone/deepslate/cobbled_deepslate",
+      "title": "深板岩圆石",
+      "icon": "cobbled_deepslate",
+      "items": [
+        "cobbled_deepslate"
+      ]
+    },
+    {
+      "id": "stone/stone/deepslate/deepslate",
+      "title": "深板岩属",
+      "icon": "deepslate",
+      "items": [
+        "deepslate",
+        "chiseled_deepslate",
+        "polished_deepslate"
+      ]
+    },
+    {
+      "id": "stone/stone/deepslate/deepslate_bricks",
+      "title": "深板岩砖属",
+      "icon": "deepslate_bricks",
+      "items": [
+        "deepslate_bricks",
+        "deepslate_tiles",
+        "cracked_deepslate_bricks",
+        "cracked_deepslate_tiles"
+      ]
+    },
+    {
+      "id": "stone/stone/end/end_stone",
+      "title": "末地石",
+      "icon": "end_stone",
+      "items": [
+        "end_stone"
+      ]
+    },
+    {
+      "id": "stone/stone/end/end_stone_bricks",
+      "title": "末地石砖",
+      "icon": "end_stone_bricks",
+      "items": [
+        "end_stone_bricks"
+      ]
+    },
+    {
+      "id": "stone/stone/end/purpur_block",
+      "title": "紫珀块属",
+      "icon": "purpur_block",
+      "items": [
+        "purpur_block",
+        "purpur_pillar"
+      ]
+    },
+    {
+      "id": "stone/stone/ice/blue_ice",
+      "title": "蓝冰",
+      "icon": "blue_ice",
+      "items": [
+        "blue_ice"
+      ]
+    },
+    {
+      "id": "stone/stone/ice/ice",
+      "title": "冰",
+      "icon": "ice",
+      "items": [
+        "ice"
+      ]
+    },
+    {
+      "id": "stone/stone/ice/packed_ice",
+      "title": "浮冰",
+      "icon": "packed_ice",
+      "items": [
+        "packed_ice"
+      ]
+    },
+    {
+      "id": "stone/stone/mainworld/andesite",
+      "title": "安山岩属",
+      "icon": "andesite",
+      "items": [
+        "andesite",
+        "polished_andesite"
+      ]
+    },
+    {
+      "id": "stone/stone/mainworld/calcite",
+      "title": "方解石",
+      "icon": "calcite",
+      "items": [
+        "calcite"
+      ]
+    },
+    {
+      "id": "stone/stone/mainworld/diorite",
+      "title": "闪长岩属",
+      "icon": "diorite",
+      "items": [
+        "diorite",
+        "polished_diorite"
+      ]
+    },
+    {
+      "id": "stone/stone/mainworld/dripstone_block",
+      "title": "滴水石块",
+      "icon": "dripstone_block",
+      "items": [
+        "dripstone_block"
+      ]
+    },
+    {
+      "id": "stone/stone/mainworld/granite",
+      "title": "花岗岩属",
+      "icon": "granite",
+      "items": [
+        "granite",
+        "polished_granite"
+      ]
+    },
+    {
+      "id": "stone/stone/mainworld/pointed_dripstone",
+      "title": "滴水石锥",
+      "icon": "pointed_dripstone",
+      "items": [
+        "pointed_dripstone"
+      ]
+    },
+    {
+      "id": "stone/stone/mainworld/prismarine",
+      "title": "海晶石属",
+      "icon": "prismarine",
+      "items": [
+        "prismarine",
+        "dark_prismarine",
+        "prismarine_bricks"
+      ]
+    },
+    {
+      "id": "stone/stone/mainworld/sandstone",
+      "title": "砂岩属",
+      "icon": "sandstone",
+      "items": [
+        "sandstone",
+        "red_sandstone",
+        "chiseled_red_sandstone",
+        "chiseled_sandstone",
+        "cut_red_sandstone",
+        "cut_sandstone",
+        "smooth_red_sandstone",
+        "smooth_sandstone"
+      ]
+    },
+    {
+      "id": "stone/stone/mainworld/tuff",
+      "title": "凝灰岩",
+      "icon": "tuff",
+      "items": [
+        "tuff"
+      ]
+    },
+    {
+      "id": "stone/stone/nether/basalt",
+      "title": "玄武岩属",
+      "icon": "basalt",
+      "items": [
+        "basalt",
+        "polished_basalt",
+        "smooth_basalt"
+      ]
+    },
+    {
+      "id": "stone/stone/nether/crying_obsidian",
+      "title": "哭泣的黑曜石",
+      "icon": "crying_obsidian",
+      "items": [
+        "crying_obsidian"
+      ]
+    },
+    {
+      "id": "stone/stone/nether/magma_block",
+      "title": "岩浆块",
+      "icon": "magma_block",
+      "items": [
+        "magma_block"
+      ]
+    },
+    {
+      "id": "stone/stone/nether/netherrack",
+      "title": "下界岩",
+      "icon": "netherrack",
+      "items": [
+        "netherrack"
+      ]
+    },
+    {
+      "id": "stone/stone/nether/obsidian",
+      "title": "黑曜石",
+      "icon": "obsidian",
+      "items": [
+        "obsidian"
+      ]
+    },
+    {
+      "id": "stone/stone/nether/warped_nylium",
+      "title": "菌岩属",
+      "icon": "warped_nylium",
+      "items": [
+        "warped_nylium",
+        "crimson_nylium"
+      ]
+    },
+    {
+      "id": "stone/stone/stone/cobblestone",
+      "title": "圆石属",
+      "icon": "cobblestone",
+      "items": [
+        "cobblestone",
+        "mossy_cobblestone"
+      ]
+    },
+    {
+      "id": "stone/stone/stone/smooth_stone",
+      "title": "平滑石头",
+      "icon": "smooth_stone",
+      "items": [
+        "smooth_stone"
+      ]
+    },
+    {
+      "id": "stone/stone/stone/stone",
+      "title": "石头",
+      "icon": "stone",
+      "items": [
+        "stone"
+      ]
+    },
+    {
+      "id": "stone/stone/stone/stone_bricks",
+      "title": "石砖属",
+      "icon": "stone_bricks",
+      "items": [
+        "stone_bricks",
+        "chiseled_stone_bricks",
+        "cracked_stone_bricks",
+        "mossy_stone_bricks"
+      ]
+    },
+    {
+      "id": "work/brew/equipment/blaze_powder",
+      "title": "烈焰粉",
+      "icon": "blaze_powder",
+      "items": [
+        "blaze_powder"
+      ]
+    },
+    {
+      "id": "work/brew/equipment/blaze_rod",
+      "title": "烈焰棒",
+      "icon": "blaze_rod",
+      "items": [
+        "blaze_rod"
+      ]
+    },
+    {
+      "id": "work/brew/equipment/brewing_stand",
+      "title": "酿造台",
+      "icon": "brewing_stand",
+      "items": [
+        "brewing_stand"
+      ]
+    },
+    {
+      "id": "work/brew/equipment/cauldron",
+      "title": "炼药锅",
+      "icon": "cauldron",
+      "items": [
+        "cauldron"
+      ]
+    },
+    {
+      "id": "work/brew/equipment/glass_bottle",
+      "title": "玻璃瓶",
+      "icon": "glass_bottle",
+      "items": [
+        "glass_bottle"
+      ]
+    },
+    {
+      "id": "work/brew/equipment/honey_bottle",
+      "title": "蜂蜜瓶",
+      "icon": "honey_bottle",
+      "items": [
+        "honey_bottle"
+      ]
+    },
+    {
+      "id": "work/brew/material/dragon_breath",
+      "title": "龙息",
+      "icon": "dragon_breath",
+      "items": [
+        "dragon_breath"
+      ]
+    },
+    {
+      "id": "work/brew/material/fermented_spider_eye",
+      "title": "发酵蛛眼",
+      "icon": "fermented_spider_eye",
+      "items": [
+        "fermented_spider_eye"
+      ]
+    },
+    {
+      "id": "work/brew/material/ghast_tear",
+      "title": "恶魂之泪",
+      "icon": "ghast_tear",
+      "items": [
+        "ghast_tear"
+      ]
+    },
+    {
+      "id": "work/brew/material/glistering_melon_slice",
+      "title": "闪烁的西瓜片",
+      "icon": "glistering_melon_slice",
+      "items": [
+        "glistering_melon_slice"
+      ]
+    },
+    {
+      "id": "work/brew/material/glowstone_dust",
+      "title": "荧石粉",
+      "icon": "glowstone_dust",
+      "items": [
+        "glowstone_dust"
+      ]
+    },
+    {
+      "id": "work/brew/material/golden_carrot",
+      "title": "金胡萝卜",
+      "icon": "golden_carrot",
+      "items": [
+        "golden_carrot"
+      ]
+    },
+    {
+      "id": "work/brew/material/gunpowder",
+      "title": "火药",
+      "icon": "gunpowder",
+      "items": [
+        "gunpowder"
+      ]
+    },
+    {
+      "id": "work/brew/material/magma_cream",
+      "title": "岩浆膏",
+      "icon": "magma_cream",
+      "items": [
+        "magma_cream"
+      ]
+    },
+    {
+      "id": "work/brew/material/nether_wart",
+      "title": "下界疣",
+      "icon": "nether_wart",
+      "items": [
+        "nether_wart"
+      ]
+    },
+    {
+      "id": "work/brew/material/phantom_membrane",
+      "title": "幻翼膜",
+      "icon": "phantom_membrane",
+      "items": [
+        "phantom_membrane"
+      ]
+    },
+    {
+      "id": "work/brew/material/pufferfish",
+      "title": "河豚",
+      "icon": "pufferfish",
+      "items": [
+        "pufferfish"
+      ]
+    },
+    {
+      "id": "work/brew/material/rabbit_foot",
+      "title": "兔子脚",
+      "icon": "rabbit_foot",
+      "items": [
+        "rabbit_foot"
+      ]
+    },
+    {
+      "id": "work/brew/material/spider_eye",
+      "title": "蜘蛛眼",
+      "icon": "spider_eye",
+      "items": [
+        "spider_eye"
+      ]
+    },
+    {
+      "id": "work/brew/material/sugar",
+      "title": "糖",
+      "icon": "sugar",
+      "items": [
+        "sugar"
+      ]
+    },
+    {
+      "id": "work/brew/potion/lingering_potion",
+      "title": "滞留药水",
+      "icon": "lingering_potion",
+      "items": [
+        "lingering_potion"
+      ]
+    },
+    {
+      "id": "work/brew/potion/potion",
+      "title": "药水",
+      "icon": "potion",
+      "items": [
+        "potion"
+      ]
+    },
+    {
+      "id": "work/brew/potion/splash_potion",
+      "title": "喷溅药水",
+      "icon": "splash_potion",
+      "items": [
+        "splash_potion"
+      ]
+    },
+    {
+      "id": "work/brew/potion/suspicious_stew",
+      "title": "谜之炖菜",
+      "icon": "suspicious_stew",
+      "items": [
+        "suspicious_stew"
+      ]
+    },
+    {
+      "id": "work/craft/material/ender_eye",
+      "title": "末影之眼",
+      "icon": "ender_eye",
+      "items": [
+        "ender_eye"
+      ]
+    },
+    {
+      "id": "work/craft/material/feather",
+      "title": "羽毛",
+      "icon": "feather",
+      "items": [
+        "feather"
+      ]
+    },
+    {
+      "id": "work/craft/material/flint",
+      "title": "燧石",
+      "icon": "flint",
+      "items": [
+        "flint"
+      ]
+    },
+    {
+      "id": "work/craft/material/glow_ink_sac",
+      "title": "荧光墨囊",
+      "icon": "glow_ink_sac",
+      "items": [
+        "glow_ink_sac"
+      ]
+    },
+    {
+      "id": "work/craft/material/ink_sac",
+      "title": "墨囊",
+      "icon": "ink_sac",
+      "items": [
+        "ink_sac"
+      ]
+    },
+    {
+      "id": "work/craft/material/leather",
+      "title": "皮革",
+      "icon": "leather",
+      "items": [
+        "leather"
+      ]
+    },
+    {
+      "id": "work/craft/material/popped_chorus_fruit",
+      "title": "爆裂紫颂果",
+      "icon": "popped_chorus_fruit",
+      "items": [
+        "popped_chorus_fruit"
+      ]
+    },
+    {
+      "id": "work/craft/material/prismarine_crystals",
+      "title": "海晶砂粒",
+      "icon": "prismarine_crystals",
+      "items": [
+        "prismarine_crystals"
+      ]
+    },
+    {
+      "id": "work/craft/material/prismarine_shard",
+      "title": "海晶碎片",
+      "icon": "prismarine_shard",
+      "items": [
+        "prismarine_shard"
+      ]
+    },
+    {
+      "id": "work/craft/material/rabbit_hide",
+      "title": "兔子皮",
+      "icon": "rabbit_hide",
+      "items": [
+        "rabbit_hide"
+      ]
+    },
+    {
+      "id": "work/craft/wood/bamboo",
+      "title": "竹子",
+      "icon": "bamboo",
+      "items": [
+        "bamboo"
+      ]
+    },
+    {
+      "id": "work/craft/wood/birch_log",
+      "title": "原木属",
+      "icon": "birch_log",
+      "items": [
+        "birch_log",
+        "dark_oak_log",
+        "jungle_log",
+        "oak_log",
+        "spruce_log",
+        "mangrove_log",
+        "acacia_log",
+        "crimson_stem",
+        "warped_stem",
+        "stripped_acacia_log",
+        "stripped_birch_log",
+        "stripped_dark_oak_log",
+        "stripped_oak_log",
+        "stripped_spruce_log",
+        "stripped_jungle_log",
+        "stripped_mangrove_log",
+        "stripped_crimson_stem",
+        "stripped_warped_stem",
+        "cherry_log",
+        "bamboo_block",
+        "stripped_cherry_log",
+        "stripped_bamboo_block"
+      ]
+    },
+    {
+      "id": "work/craft/wood/birch_planks",
+      "title": "木板属",
+      "icon": "birch_planks",
+      "items": [
+        "birch_planks",
+        "dark_oak_planks",
+        "jungle_planks",
+        "oak_planks",
+        "spruce_planks",
+        "mangrove_planks",
+        "acacia_planks",
+        "crimson_planks",
+        "warped_planks",
+        "cherry_planks",
+        "bamboo_planks"
+      ]
+    },
+    {
+      "id": "work/craft/wood/birch_wood",
+      "title": "木头属",
+      "icon": "birch_wood",
+      "items": [
+        "birch_wood",
+        "dark_oak_wood",
+        "jungle_wood",
+        "oak_wood",
+        "spruce_wood",
+        "mangrove_wood",
+        "acacia_wood",
+        "crimson_hyphae",
+        "warped_hyphae",
+        "stripped_acacia_wood",
+        "stripped_jungle_wood",
+        "stripped_oak_wood",
+        "stripped_dark_oak_wood",
+        "stripped_birch_wood",
+        "stripped_spruce_wood",
+        "stripped_mangrove_wood",
+        "stripped_warped_hyphae",
+        "stripped_crimson_hyphae",
+        "cherry_wood",
+        "stripped_cherry_wood"
+      ]
+    },
+    {
+      "id": "work/craft/wood/stick",
+      "title": "木棍",
+      "icon": "stick",
+      "items": [
+        "stick"
+      ]
+    },
+    {
+      "id": "work/enchant/book/enchanted_book",
+      "title": "附魔书",
+      "icon": "enchanted_book",
+      "items": [
+        "enchanted_book"
+      ]
+    },
+    {
+      "id": "work/enchant/equipment/bookshelf",
+      "title": "书架",
+      "icon": "bookshelf",
+      "items": [
+        "bookshelf"
+      ]
+    },
+    {
+      "id": "work/enchant/equipment/enchanting_table",
+      "title": "附魔台",
+      "icon": "enchanting_table",
+      "items": [
+        "enchanting_table"
+      ]
+    },
+    {
+      "id": "work/enchant/equipment/experience_bottle",
+      "title": "附魔之瓶",
+      "icon": "experience_bottle",
+      "items": [
+        "experience_bottle"
+      ]
+    },
+    {
+      "id": "work/mine/ingot/amethyst_shard",
+      "title": "紫水晶碎片",
+      "icon": "amethyst_shard",
+      "items": [
+        "amethyst_shard"
+      ]
+    },
+    {
+      "id": "work/mine/ingot/coal",
+      "title": "煤炭属",
+      "icon": "coal",
+      "items": [
+        "coal",
+        "charcoal"
+      ]
+    },
+    {
+      "id": "work/mine/ingot/copper_ingot",
+      "title": "铜锭",
+      "icon": "copper_ingot",
+      "items": [
+        "copper_ingot"
+      ]
+    },
+    {
+      "id": "work/mine/ingot/diamond",
+      "title": "钻石",
+      "icon": "diamond",
+      "items": [
+        "diamond"
+      ]
+    },
+    {
+      "id": "work/mine/ingot/emerald",
+      "title": "绿宝石",
+      "icon": "emerald",
+      "items": [
+        "emerald"
+      ]
+    },
+    {
+      "id": "work/mine/ingot/gold_ingot",
+      "title": "金锭",
+      "icon": "gold_ingot",
+      "items": [
+        "gold_ingot"
+      ]
+    },
+    {
+      "id": "work/mine/ingot/iron_ingot",
+      "title": "铁锭",
+      "icon": "iron_ingot",
+      "items": [
+        "iron_ingot"
+      ]
+    },
+    {
+      "id": "work/mine/ingot/lapis_lazuli",
+      "title": "青金石",
+      "icon": "lapis_lazuli",
+      "items": [
+        "lapis_lazuli"
+      ]
+    },
+    {
+      "id": "work/mine/ingot/netherite_ingot",
+      "title": "下界合金锭",
+      "icon": "netherite_ingot",
+      "items": [
+        "netherite_ingot"
+      ]
+    },
+    {
+      "id": "work/mine/ingot/quartz",
+      "title": "下界石英",
+      "icon": "quartz",
+      "items": [
+        "quartz"
+      ]
+    },
+    {
+      "id": "work/mine/mineral_block/amethyst_block",
+      "title": "紫水晶块",
+      "icon": "amethyst_block",
+      "items": [
+        "amethyst_block"
+      ]
+    },
+    {
+      "id": "work/mine/mineral_block/coal_block",
+      "title": "煤炭块",
+      "icon": "coal_block",
+      "items": [
+        "coal_block"
+      ]
+    },
+    {
+      "id": "work/mine/mineral_block/copper_block",
+      "title": "铜块属",
+      "icon": "copper_block",
+      "items": [
+        "copper_block",
+        "cut_copper",
+        "exposed_copper",
+        "exposed_cut_copper",
+        "oxidized_copper",
+        "oxidized_cut_copper",
+        "waxed_copper_block",
+        "waxed_cut_copper",
+        "waxed_exposed_copper",
+        "waxed_exposed_cut_copper",
+        "waxed_oxidized_copper",
+        "waxed_oxidized_cut_copper",
+        "waxed_weathered_copper",
+        "waxed_weathered_cut_copper",
+        "weathered_copper",
+        "weathered_cut_copper"
+      ]
+    },
+    {
+      "id": "work/mine/mineral_block/diamond_block",
+      "title": "钻石块",
+      "icon": "diamond_block",
+      "items": [
+        "diamond_block"
+      ]
+    },
+    {
+      "id": "work/mine/mineral_block/emerald_block",
+      "title": "绿宝石块",
+      "icon": "emerald_block",
+      "items": [
+        "emerald_block"
+      ]
+    },
+    {
+      "id": "work/mine/mineral_block/gold_block",
+      "title": "金块",
+      "icon": "gold_block",
+      "items": [
+        "gold_block"
+      ]
+    },
+    {
+      "id": "work/mine/mineral_block/iron_block",
+      "title": "铁块",
+      "icon": "iron_block",
+      "items": [
+        "iron_block"
+      ]
+    },
+    {
+      "id": "work/mine/mineral_block/lapis_block",
+      "title": "青金石块",
+      "icon": "lapis_block",
+      "items": [
+        "lapis_block"
+      ]
+    },
+    {
+      "id": "work/mine/mineral_block/netherite_block",
+      "title": "下界合金块",
+      "icon": "netherite_block",
+      "items": [
+        "netherite_block"
+      ]
+    },
+    {
+      "id": "work/mine/mineral_block/quartz_block",
+      "title": "石英块属",
+      "icon": "quartz_block",
+      "items": [
+        "quartz_block",
+        "chiseled_quartz_block",
+        "quartz_bricks",
+        "quartz_pillar",
+        "smooth_quartz"
+      ]
+    },
+    {
+      "id": "work/mine/ore/ancient_debris",
+      "title": "远古残骸",
+      "icon": "ancient_debris",
+      "items": [
+        "ancient_debris"
+      ]
+    },
+    {
+      "id": "work/mine/ore/deepslate_coal_ore",
+      "title": "煤矿石属",
+      "icon": "deepslate_coal_ore",
+      "items": [
+        "deepslate_coal_ore",
+        "coal_ore"
+      ]
+    },
+    {
+      "id": "work/mine/ore/deepslate_copper_ore",
+      "title": "铜矿石属",
+      "icon": "deepslate_copper_ore",
+      "items": [
+        "deepslate_copper_ore",
+        "copper_ore"
+      ]
+    },
+    {
+      "id": "work/mine/ore/deepslate_emerald_ore",
+      "title": "绿宝石矿石属",
+      "icon": "deepslate_emerald_ore",
+      "items": [
+        "deepslate_emerald_ore",
+        "emerald_ore"
+      ]
+    },
+    {
+      "id": "work/mine/ore/deepslate_gold_ore",
+      "title": "金矿石属",
+      "icon": "deepslate_gold_ore",
+      "items": [
+        "deepslate_gold_ore",
+        "gold_ore"
+      ]
+    },
+    {
+      "id": "work/mine/ore/deepslate_lapis_ore",
+      "title": "青金石矿石属",
+      "icon": "deepslate_lapis_ore",
+      "items": [
+        "deepslate_lapis_ore",
+        "lapis_ore"
+      ]
+    },
+    {
+      "id": "work/mine/ore/deepslate_redstone_ore",
+      "title": "红石矿石属",
+      "icon": "deepslate_redstone_ore",
+      "items": [
+        "deepslate_redstone_ore",
+        "redstone_ore"
+      ]
+    },
+    {
+      "id": "work/mine/ore/diamond_ore",
+      "title": "钻石矿石属",
+      "icon": "diamond_ore",
+      "items": [
+        "diamond_ore",
+        "deepslate_diamond_ore"
+      ]
+    },
+    {
+      "id": "work/mine/ore/iron_ore",
+      "title": "铁矿石属",
+      "icon": "iron_ore",
+      "items": [
+        "iron_ore",
+        "deepslate_iron_ore"
+      ]
+    },
+    {
+      "id": "work/mine/ore/nether_gold_ore",
+      "title": "下界金矿石",
+      "icon": "nether_gold_ore",
+      "items": [
+        "nether_gold_ore"
+      ]
+    },
+    {
+      "id": "work/mine/ore/nether_quartz_ore",
+      "title": "下界石英矿石",
+      "icon": "nether_quartz_ore",
+      "items": [
+        "nether_quartz_ore"
+      ]
+    },
+    {
+      "id": "work/mine/raw_mine/amethyst_cluster",
+      "title": "紫水晶簇属",
+      "icon": "amethyst_cluster",
+      "items": [
+        "amethyst_cluster",
+        "small_amethyst_bud",
+        "medium_amethyst_bud",
+        "large_amethyst_bud"
+      ]
+    },
+    {
+      "id": "work/mine/raw_mine/gold_nugget",
+      "title": "金粒",
+      "icon": "gold_nugget",
+      "items": [
+        "gold_nugget"
+      ]
+    },
+    {
+      "id": "work/mine/raw_mine/iron_nugget",
+      "title": "铁粒",
+      "icon": "iron_nugget",
+      "items": [
+        "iron_nugget"
+      ]
+    },
+    {
+      "id": "work/mine/raw_mine/netherite_scrap",
+      "title": "下界合金碎片",
+      "icon": "netherite_scrap",
+      "items": [
+        "netherite_scrap"
+      ]
+    },
+    {
+      "id": "work/mine/raw_mine/raw_copper",
+      "title": "粗铜",
+      "icon": "raw_copper",
+      "items": [
+        "raw_copper"
+      ]
+    },
+    {
+      "id": "work/mine/raw_mine/raw_copper_block",
+      "title": "粗铜块",
+      "icon": "raw_copper_block",
+      "items": [
+        "raw_copper_block"
+      ]
+    },
+    {
+      "id": "work/mine/raw_mine/raw_gold",
+      "title": "粗金",
+      "icon": "raw_gold",
+      "items": [
+        "raw_gold"
+      ]
+    },
+    {
+      "id": "work/mine/raw_mine/raw_gold_block",
+      "title": "粗金块",
+      "icon": "raw_gold_block",
+      "items": [
+        "raw_gold_block"
+      ]
+    },
+    {
+      "id": "work/mine/raw_mine/raw_iron",
+      "title": "粗铁",
+      "icon": "raw_iron",
+      "items": [
+        "raw_iron"
+      ]
+    },
+    {
+      "id": "work/mine/raw_mine/raw_iron_block",
+      "title": "粗铁块",
+      "icon": "raw_iron_block",
+      "items": [
+        "raw_iron_block"
+      ]
+    },
+    {
+      "id": "work/stain/build/light_blue_concrete",
+      "title": "混凝土属",
+      "icon": "light_blue_concrete",
+      "items": [
+        "light_blue_concrete",
+        "black_concrete",
+        "blue_concrete",
+        "brown_concrete",
+        "gray_concrete",
+        "light_gray_concrete",
+        "lime_concrete",
+        "magenta_concrete",
+        "pink_concrete",
+        "orange_concrete",
+        "purple_concrete",
+        "white_concrete",
+        "green_concrete",
+        "yellow_concrete",
+        "red_concrete",
+        "cyan_concrete"
+      ]
+    },
+    {
+      "id": "work/stain/build/light_blue_concrete_powder",
+      "title": "混凝土粉末属",
+      "icon": "light_blue_concrete_powder",
+      "items": [
+        "light_blue_concrete_powder",
+        "black_concrete_powder",
+        "blue_concrete_powder",
+        "brown_concrete_powder",
+        "gray_concrete_powder",
+        "green_concrete_powder",
+        "lime_concrete_powder",
+        "magenta_concrete_powder",
+        "light_gray_concrete_powder",
+        "purple_concrete_powder",
+        "orange_concrete_powder",
+        "cyan_concrete_powder",
+        "pink_concrete_powder",
+        "red_concrete_powder",
+        "white_concrete_powder",
+        "yellow_concrete_powder"
+      ]
+    },
+    {
+      "id": "work/stain/build/light_blue_glazed_terracotta",
+      "title": "带釉陶瓦属",
+      "icon": "light_blue_glazed_terracotta",
+      "items": [
+        "light_blue_glazed_terracotta",
+        "black_glazed_terracotta",
+        "blue_glazed_terracotta",
+        "cyan_glazed_terracotta",
+        "magenta_glazed_terracotta",
+        "lime_glazed_terracotta",
+        "orange_glazed_terracotta",
+        "light_gray_glazed_terracotta",
+        "green_glazed_terracotta",
+        "brown_glazed_terracotta",
+        "pink_glazed_terracotta",
+        "gray_glazed_terracotta",
+        "red_glazed_terracotta",
+        "purple_glazed_terracotta",
+        "white_glazed_terracotta",
+        "yellow_glazed_terracotta"
+      ]
+    },
+    {
+      "id": "work/stain/build/light_blue_stained_glass",
+      "title": "玻璃属",
+      "icon": "light_blue_stained_glass",
+      "items": [
+        "light_blue_stained_glass",
+        "black_stained_glass",
+        "glass",
+        "pink_stained_glass",
+        "blue_stained_glass",
+        "cyan_stained_glass",
+        "lime_stained_glass",
+        "magenta_stained_glass",
+        "orange_stained_glass",
+        "brown_stained_glass",
+        "light_gray_stained_glass",
+        "gray_stained_glass",
+        "red_stained_glass",
+        "purple_stained_glass",
+        "green_stained_glass",
+        "yellow_stained_glass",
+        "white_stained_glass"
+      ]
+    },
+    {
+      "id": "work/stain/build/light_blue_stained_glass_pane",
+      "title": "玻璃板属",
+      "icon": "light_blue_stained_glass_pane",
+      "items": [
+        "light_blue_stained_glass_pane",
+        "black_stained_glass_pane",
+        "glass_pane",
+        "blue_stained_glass_pane",
+        "light_gray_stained_glass_pane",
+        "pink_stained_glass_pane",
+        "orange_stained_glass_pane",
+        "purple_stained_glass_pane",
+        "magenta_stained_glass_pane",
+        "green_stained_glass_pane",
+        "gray_stained_glass_pane",
+        "lime_stained_glass_pane",
+        "cyan_stained_glass_pane",
+        "red_stained_glass_pane",
+        "white_stained_glass_pane",
+        "yellow_stained_glass_pane",
+        "brown_stained_glass_pane"
+      ]
+    },
+    {
+      "id": "work/stain/build/light_blue_terracotta",
+      "title": "陶瓦属",
+      "icon": "light_blue_terracotta",
+      "items": [
+        "light_blue_terracotta",
+        "black_terracotta",
+        "terracotta",
+        "green_terracotta",
+        "lime_terracotta",
+        "blue_terracotta",
+        "cyan_terracotta",
+        "light_gray_terracotta",
+        "magenta_terracotta",
+        "orange_terracotta",
+        "pink_terracotta",
+        "purple_terracotta",
+        "brown_terracotta",
+        "red_terracotta",
+        "gray_terracotta",
+        "white_terracotta",
+        "yellow_terracotta"
+      ]
+    },
+    {
+      "id": "work/stain/build/tinted_glass",
+      "title": "遮光玻璃",
+      "icon": "tinted_glass",
+      "items": [
+        "tinted_glass"
+      ]
+    },
+    {
+      "id": "work/stain/dye/light_blue_dye",
+      "title": "染料属",
+      "icon": "light_blue_dye",
+      "items": [
+        "light_blue_dye",
+        "red_dye",
+        "green_dye",
+        "blue_dye",
+        "yellow_dye",
+        "black_dye",
+        "white_dye",
+        "brown_dye",
+        "cyan_dye",
+        "light_gray_dye",
+        "pink_dye",
+        "lime_dye",
+        "magenta_dye",
+        "orange_dye",
+        "purple_dye",
+        "gray_dye"
+      ]
+    },
+    {
+      "id": "work/stain/shulker_box/light_blue_shulker_box",
+      "title": "潜影盒属",
+      "icon": "light_blue_shulker_box",
+      "items": [
+        "light_blue_shulker_box",
+        "shulker_box",
+        "black_shulker_box",
+        "blue_shulker_box",
+        "cyan_shulker_box",
+        "light_gray_shulker_box",
+        "lime_shulker_box",
+        "magenta_shulker_box",
+        "green_shulker_box",
+        "orange_shulker_box",
+        "brown_shulker_box",
+        "purple_shulker_box",
+        "gray_shulker_box",
+        "red_shulker_box",
+        "white_shulker_box",
+        "pink_shulker_box",
+        "yellow_shulker_box"
+      ]
+    },
+    {
+      "id": "work/stain/shulker_box/shulker_shell",
+      "title": "潜影壳",
+      "icon": "shulker_shell",
+      "items": [
+        "shulker_shell"
+      ]
+    },
+    {
+      "id": "work/stain/wool/globe_banner_pattern",
+      "title": "旗帜图案属",
+      "icon": "globe_banner_pattern",
+      "items": [
+        "globe_banner_pattern",
+        "flower_banner_pattern",
+        "creeper_banner_pattern",
+        "skull_banner_pattern",
+        "mojang_banner_pattern",
+        "piglin_banner_pattern"
+      ]
+    },
+    {
+      "id": "work/stain/wool/light_blue_banner",
+      "title": "旗帜属",
+      "icon": "light_blue_banner",
+      "items": [
+        "light_blue_banner",
+        "black_banner",
+        "blue_banner",
+        "brown_banner",
+        "cyan_banner",
+        "green_banner",
+        "gray_banner",
+        "light_gray_banner",
+        "lime_banner",
+        "magenta_banner",
+        "orange_banner",
+        "pink_banner",
+        "purple_banner",
+        "red_banner",
+        "white_banner",
+        "yellow_banner"
+      ]
+    },
+    {
+      "id": "work/stain/wool/light_blue_bed",
+      "title": "床属",
+      "icon": "light_blue_bed",
+      "items": [
+        "light_blue_bed",
+        "black_bed",
+        "blue_bed",
+        "brown_bed",
+        "cyan_bed",
+        "gray_bed",
+        "green_bed",
+        "light_gray_bed",
+        "lime_bed",
+        "magenta_bed",
+        "orange_bed",
+        "pink_bed",
+        "purple_bed",
+        "red_bed",
+        "white_bed",
+        "yellow_bed"
+      ]
+    },
+    {
+      "id": "work/stain/wool/light_blue_candle",
+      "title": "蜡烛属",
+      "icon": "light_blue_candle",
+      "items": [
+        "light_blue_candle",
+        "black_candle",
+        "candle",
+        "blue_candle",
+        "brown_candle",
+        "cyan_candle",
+        "gray_candle",
+        "green_candle",
+        "light_gray_candle",
+        "lime_candle",
+        "magenta_candle",
+        "orange_candle",
+        "pink_candle",
+        "purple_candle",
+        "red_candle",
+        "white_candle",
+        "yellow_candle"
+      ]
+    },
+    {
+      "id": "work/stain/wool/light_blue_carpet",
+      "title": "地毯属",
+      "icon": "light_blue_carpet",
+      "items": [
+        "light_blue_carpet",
+        "black_carpet",
+        "blue_carpet",
+        "brown_carpet",
+        "cyan_carpet",
+        "gray_carpet",
+        "green_carpet",
+        "light_gray_carpet",
+        "lime_carpet",
+        "magenta_carpet",
+        "orange_carpet",
+        "pink_carpet",
+        "purple_carpet",
+        "red_carpet",
+        "white_carpet",
+        "yellow_carpet"
+      ]
+    },
+    {
+      "id": "work/stain/wool/light_blue_wool",
+      "title": "羊毛属",
+      "icon": "light_blue_wool",
+      "items": [
+        "light_blue_wool",
+        "black_wool",
+        "blue_wool",
+        "cyan_wool",
+        "light_gray_wool",
+        "lime_wool",
+        "pink_wool",
+        "magenta_wool",
+        "purple_wool",
+        "green_wool",
+        "gray_wool",
+        "red_wool",
+        "brown_wool",
+        "orange_wool",
+        "white_wool",
+        "yellow_wool"
+      ]
+    },
+    {
+      "id": "work/stain/wool/moss_carpet",
+      "title": "覆地苔藓",
+      "icon": "moss_carpet",
+      "items": [
+        "moss_carpet"
+      ]
+    },
+    {
+      "id": "life/plant/grass/pink_petals",
+      "title": "粉红色花簇",
+      "icon": "pink_petals",
+      "items": [
+        "pink_petals"
+      ]
+    },
+    {
+      "id": "life/plant/crop/pitcher_pod",
+      "title": "瓶子草荚果",
+      "icon": "pitcher_pod",
+      "items": [
+        "pitcher_pod"
+      ]
+    },
+    {
+      "id": "life/plant/crop/torchflower_seeds",
+      "title": "火把花种子",
+      "icon": "torchflower_seeds",
+      "items": [
+        "torchflower_seeds"
+      ]
+    },
+    {
+      "id": "life/aminal/egg/sniffer_egg",
+      "title": "嗅探兽蛋",
+      "icon": "sniffer_egg",
+      "items": [
+        "sniffer_egg"
+      ]
+    },
+    {
+      "id": "build/gui/chest/chiseled_bookshelf",
+      "title": "雕纹书架",
+      "icon": "chiseled_bookshelf",
+      "items": [
+        "chiseled_bookshelf"
+      ]
+    },
+    {
+      "id": "build/gui/chest/decorated_pot",
+      "title": "饰纹陶罐",
+      "icon": "decorated_pot",
+      "items": [
+        "decorated_pot"
+      ]
+    },
+    {
+      "id": "build/gui/chest/angler_pottery_sherd",
+      "title": "陶片属",
+      "icon": "angler_pottery_sherd",
+      "items": [
+        "angler_pottery_sherd",
+        "archer_pottery_sherd",
+        "arms_up_pottery_sherd",
+        "blade_pottery_sherd",
+        "brewer_pottery_sherd",
+        "burn_pottery_sherd",
+        "danger_pottery_sherd",
+        "explorer_pottery_sherd",
+        "friend_pottery_sherd",
+        "heart_pottery_sherd",
+        "heartbreak_pottery_sherd",
+        "howl_pottery_sherd",
+        "miner_pottery_sherd",
+        "mourner_pottery_sherd",
+        "plenty_pottery_sherd",
+        "prize_pottery_sherd",
+        "sheaf_pottery_sherd",
+        "shelter_pottery_sherd",
+        "skull_pottery_sherd",
+        "snort_pottery_sherd"
+      ]
+    },
+    {
+      "id": "work/craft/wood/bamboo_mosaic",
+      "title": "竹马赛克",
+      "icon": "bamboo_mosaic",
+      "items": [
+        "bamboo_mosaic"
+      ]
+    },
+    {
+      "id": "arm/fight/armor/netherite_upgrade_smithing_template",
+      "title": "锻造模板属",
+      "icon": "netherite_upgrade_smithing_template",
+      "items": [
+        "netherite_upgrade_smithing_template",
+        "coast_armor_trim_smithing_template",
+        "dune_armor_trim_smithing_template",
+        "eye_armor_trim_smithing_template",
+        "host_armor_trim_smithing_template",
+        "raiser_armor_trim_smithing_template",
+        "rib_armor_trim_smithing_template",
+        "sentry_armor_trim_smithing_template",
+        "shaper_armor_trim_smithing_template",
+        "silence_armor_trim_smithing_template",
+        "snout_armor_trim_smithing_template",
+        "spire_armor_trim_smithing_template",
+        "tide_armor_trim_smithing_template",
+        "vex_armor_trim_smithing_template",
+        "ward_armor_trim_smithing_template",
+        "wayfinder_armor_trim_smithing_template",
+        "wild_armor_trim_smithing_template"
+      ]
+    },
+    {
+      "id": "arm/tool/normal/brush",
+      "title": "刷子",
+      "icon": "brush",
+      "items": [
+        "brush"
+      ]
+    },
+    {
+      "id": "arm/tool/information/oak_hanging_sign",
+      "title": "悬挂式告示牌属",
+      "icon": "oak_hanging_sign",
+      "items": [
+        "oak_hanging_sign",
+        "spruce_hanging_sign",
+        "birch_hanging_sign",
+        "jungle_hanging_sign",
+        "acacia_hanging_sign",
+        "dark_oak_hanging_sign",
+        "mangrove_hanging_sign",
+        "cherry_hanging_sign",
+        "bamboo_hanging_sign",
+        "crimson_hanging_sign",
+        "warped_hanging_sign"
+      ]
+    },
+    {
+      "id": "arm/tool/information/knowledge_book",
+      "title": "知识之书",
+      "icon": "knowledge_book",
+      "items": [
+        "knowledge_book"
+      ]
+    },
+    {
+      "id": "arm/tool/normal/debug_stick",
+      "title": "调试棒",
+      "icon": "debug_stick",
+      "items": [
+        "debug_stick"
+      ]
+    },
+    {
+      "id": "build/gui/chest/bundle",
+      "title": "收纳袋",
+      "icon": "bundle",
+      "items": [
+        "bundle"
+      ]
+    },
+    {
+      "id": "build/build/fence/barrier",
+      "title": "屏障",
+      "icon": "barrier",
+      "items": [
+        "barrier"
+      ]
+    },
+    {
+      "id": "build/build/light/light",
+      "title": "光源方块",
+      "icon": "light",
+      "items": [
+        "light"
+      ]
+    },
+    {
+      "id": "build/build/light/redstone_lamp",
+      "title": "红石灯",
+      "icon": "redstone_lamp",
+      "items": [
+        "redstone_lamp"
+      ]
+    },
+    {
+      "id": "build/build/landmark/end_portal_frame",
+      "title": "末地传送门框架",
+      "icon": "end_portal_frame",
+      "items": [
+        "end_portal_frame"
+      ]
+    },
+    {
+      "id": "build/build/ladder/petrified_oak_slab",
+      "title": "石化橡木台阶",
+      "icon": "petrified_oak_slab",
+      "items": [
+        "petrified_oak_slab"
+      ]
+    },
+    {
+      "id": "build/build/structure/structure_block",
+      "title": "结构方块",
+      "icon": "structure_block",
+      "items": [
+        "structure_block"
+      ]
+    },
+    {
+      "id": "build/build/structure/structure_void",
+      "title": "结构空位",
+      "icon": "structure_void",
+      "items": [
+        "structure_void"
+      ]
+    },
+    {
+      "id": "build/build/structure/jigsaw",
+      "title": "拼图方块",
+      "icon": "jigsaw",
+      "items": [
+        "jigsaw"
+      ]
+    },
+    {
+      "id": "build/redstone/command/command_block",
+      "title": "命令方块属",
+      "icon": "command_block",
+      "items": [
+        "command_block",
+        "chain_command_block",
+        "repeating_command_block"
+      ]
+    },
+    {
+      "id": "build/traffic/minecart/command_block_minecart",
+      "title": "命令方块矿车",
+      "icon": "command_block_minecart",
+      "items": [
+        "command_block_minecart"
+      ]
+    },
+    {
+      "id": "life/aminal/egg/frogspawn",
+      "title": "青蛙卵",
+      "icon": "frogspawn",
+      "items": [
+        "frogspawn"
+      ]
+    },
+    {
+      "id": "life/aminal/generation/spawn_egg",
+      "title": "刷怪蛋属",
+      "icon": "pig_spawn_egg",
+      "items": [
+        "allay_spawn_egg",
+        "axolotl_spawn_egg",
+        "bat_spawn_egg",
+        "bee_spawn_egg",
+        "blaze_spawn_egg",
+        "camel_spawn_egg",
+        "cat_spawn_egg",
+        "cave_spider_spawn_egg",
+        "chicken_spawn_egg",
+        "cod_spawn_egg",
+        "cow_spawn_egg",
+        "creeper_spawn_egg",
+        "dolphin_spawn_egg",
+        "donkey_spawn_egg",
+        "drowned_spawn_egg",
+        "elder_guardian_spawn_egg",
+        "ender_dragon_spawn_egg",
+        "enderman_spawn_egg",
+        "endermite_spawn_egg",
+        "evoker_spawn_egg",
+        "fox_spawn_egg",
+        "frog_spawn_egg",
+        "ghast_spawn_egg",
+        "glow_squid_spawn_egg",
+        "goat_spawn_egg",
+        "guardian_spawn_egg",
+        "hoglin_spawn_egg",
+        "horse_spawn_egg",
+        "husk_spawn_egg",
+        "iron_golem_spawn_egg",
+        "llama_spawn_egg",
+        "magma_cube_spawn_egg",
+        "mooshroom_spawn_egg",
+        "mule_spawn_egg",
+        "ocelot_spawn_egg",
+        "panda_spawn_egg",
+        "parrot_spawn_egg",
+        "phantom_spawn_egg",
+        "pig_spawn_egg",
+        "piglin_brute_spawn_egg",
+        "piglin_spawn_egg",
+        "pillager_spawn_egg",
+        "polar_bear_spawn_egg",
+        "pufferfish_spawn_egg",
+        "rabbit_spawn_egg",
+        "ravager_spawn_egg",
+        "salmon_spawn_egg",
+        "sheep_spawn_egg",
+        "shulker_spawn_egg",
+        "silverfish_spawn_egg",
+        "skeleton_horse_spawn_egg",
+        "skeleton_spawn_egg",
+        "slime_spawn_egg",
+        "sniffer_spawn_egg",
+        "snow_golem_spawn_egg",
+        "spider_spawn_egg",
+        "squid_spawn_egg",
+        "stray_spawn_egg",
+        "strider_spawn_egg",
+        "tadpole_spawn_egg",
+        "trader_llama_spawn_egg",
+        "tropical_fish_spawn_egg",
+        "turtle_spawn_egg",
+        "vex_spawn_egg",
+        "villager_spawn_egg",
+        "vindicator_spawn_egg",
+        "wandering_trader_spawn_egg",
+        "warden_spawn_egg",
+        "witch_spawn_egg",
+        "wither_skeleton_spawn_egg",
+        "wither_spawn_egg",
+        "wolf_spawn_egg",
+        "zoglin_spawn_egg",
+        "zombie_horse_spawn_egg",
+        "zombie_spawn_egg",
+        "zombie_villager_spawn_egg",
+        "zombified_piglin_spawn_egg"
+      ]
+    },
+    {
+      "id": "life/aminal/generation/spawner",
+      "title": "刷怪笼",
+      "icon": "spawner",
+      "items": [
+        "spawner"
+      ]
+    },
+    {
+      "id": "life/plant/tree/chorus_plant",
+      "title": "紫颂植株",
+      "icon": "chorus_plant",
+      "items": [
+        "chorus_plant"
+      ]
+    },
+    {
+      "id": "stone/dirt/dirt/dirt_path",
+      "title": "土径",
+      "icon": "dirt_path",
+      "items": [
+        "dirt_path"
+      ]
+    },
+    {
+      "id": "stone/dirt/dirt/farmland",
+      "title": "耕地",
+      "icon": "farmland",
+      "items": [
+        "farmland"
+      ]
+    },
+    {
+      "id": "stone/sand/sand/suspicious_sand",
+      "title": "可疑的沙子",
+      "icon": "suspicious_sand",
+      "items": [
+        "suspicious_sand"
+      ]
+    },
+    {
+      "id": "stone/sand/sand/suspicious_gravel",
+      "title": "可疑的沙砾",
+      "icon": "suspicious_gravel",
+      "items": [
+        "suspicious_gravel"
+      ]
+    },
+    {
+      "id": "stone/stone/stone/bedrock",
+      "title": "基岩",
+      "icon": "bedrock",
+      "items": [
+        "bedrock"
+      ]
+    },
+    {
+      "id": "stone/stone/infested/infested_stone",
+      "title": "虫蚀方块属",
+      "icon": "infested_stone",
+      "items": [
+        "infested_chiseled_stone_bricks",
+        "infested_cobblestone",
+        "infested_cracked_stone_bricks",
+        "infested_deepslate",
+        "infested_mossy_stone_bricks",
+        "infested_stone",
+        "infested_stone_bricks"
+      ]
+    },
+    {
+      "id": "stone/stone/deepslate/reinforced_deepslate",
+      "title": "强化深板岩",
+      "icon": "reinforced_deepslate",
+      "items": [
+        "reinforced_deepslate"
+      ]
+    },
+    {
+      "id": "work/mine/mineral_block/budding_amethyst",
+      "title": "紫水晶母岩",
+      "icon": "budding_amethyst",
+      "items": [
+        "budding_amethyst"
+      ]
+    },
+    {
+      "id": "work/technical/placeholder/air",
+      "title": "空气",
+      "icon": "glass",
+      "items": [
+        "air"
+      ]
+    },
+    {
+      "id": "life/mob/head/player_head",
+      "title": "玩家的头",
+      "icon": "player_head",
+      "items": [
+        "player_head"
+      ]
+    }
+  ],
+  "excluded": [
+    {
+      "item": "air",
+      "reason": "物品注册表表示空物品槽的占位 ID，不能持有或 /give；只列入完整分类图，不计入生存收集。",
+      "acquisition": "registry_sentinel"
+    },
+    {
+      "item": "allay_spawn_egg",
+      "reason": "刷怪蛋的物品形态不属于1.20.1常规生存可获取范围；创造或命令用途。",
+      "acquisition": "creative_or_command"
+    },
+    {
+      "item": "axolotl_spawn_egg",
+      "reason": "刷怪蛋的物品形态不属于1.20.1常规生存可获取范围；创造或命令用途。",
+      "acquisition": "creative_or_command"
+    },
+    {
+      "item": "barrier",
+      "reason": "不属于1.20.1常规生存可获取物品；创造、管理员命令或地图制作用途，完整ID分类图保留。",
+      "acquisition": "creative_or_command"
+    },
+    {
+      "item": "bat_spawn_egg",
+      "reason": "刷怪蛋的物品形态不属于1.20.1常规生存可获取范围；创造或命令用途。",
+      "acquisition": "creative_or_command"
+    },
+    {
+      "item": "bedrock",
+      "reason": "该方块可存在于世界中，但1.20.1常规生存无法获得其对应物品形态；完整ID分类图保留。",
+      "acquisition": "world_block_without_survival_item"
+    },
+    {
+      "item": "bee_spawn_egg",
+      "reason": "刷怪蛋的物品形态不属于1.20.1常规生存可获取范围；创造或命令用途。",
+      "acquisition": "creative_or_command"
+    },
+    {
+      "item": "blaze_spawn_egg",
+      "reason": "刷怪蛋的物品形态不属于1.20.1常规生存可获取范围；创造或命令用途。",
+      "acquisition": "creative_or_command"
+    },
+    {
+      "item": "budding_amethyst",
+      "reason": "该方块可存在于世界中，但1.20.1常规生存无法获得其对应物品形态；完整ID分类图保留。",
+      "acquisition": "world_block_without_survival_item"
+    },
+    {
+      "item": "bundle",
+      "reason": "Minecraft Java 1.20.1 的实验性收纳袋；常规未启用实验数据包的生存范围排除，完整ID分类图保留。",
+      "acquisition": "experimental"
+    },
+    {
+      "item": "camel_spawn_egg",
+      "reason": "刷怪蛋的物品形态不属于1.20.1常规生存可获取范围；创造或命令用途。",
+      "acquisition": "creative_or_command"
+    },
+    {
+      "item": "cat_spawn_egg",
+      "reason": "刷怪蛋的物品形态不属于1.20.1常规生存可获取范围；创造或命令用途。",
+      "acquisition": "creative_or_command"
+    },
+    {
+      "item": "cave_spider_spawn_egg",
+      "reason": "刷怪蛋的物品形态不属于1.20.1常规生存可获取范围；创造或命令用途。",
+      "acquisition": "creative_or_command"
+    },
+    {
+      "item": "chain_command_block",
+      "reason": "不属于1.20.1常规生存可获取物品；创造、管理员命令或地图制作用途，完整ID分类图保留。",
+      "acquisition": "creative_or_command"
+    },
+    {
+      "item": "chicken_spawn_egg",
+      "reason": "刷怪蛋的物品形态不属于1.20.1常规生存可获取范围；创造或命令用途。",
+      "acquisition": "creative_or_command"
+    },
+    {
+      "item": "chorus_plant",
+      "reason": "该方块可存在于世界中，但1.20.1常规生存无法获得其对应物品形态；完整ID分类图保留。",
+      "acquisition": "world_block_without_survival_item"
+    },
+    {
+      "item": "cod_spawn_egg",
+      "reason": "刷怪蛋的物品形态不属于1.20.1常规生存可获取范围；创造或命令用途。",
+      "acquisition": "creative_or_command"
+    },
+    {
+      "item": "command_block",
+      "reason": "不属于1.20.1常规生存可获取物品；创造、管理员命令或地图制作用途，完整ID分类图保留。",
+      "acquisition": "creative_or_command"
+    },
+    {
+      "item": "command_block_minecart",
+      "reason": "不属于1.20.1常规生存可获取物品；创造、管理员命令或地图制作用途，完整ID分类图保留。",
+      "acquisition": "creative_or_command"
+    },
+    {
+      "item": "cow_spawn_egg",
+      "reason": "刷怪蛋的物品形态不属于1.20.1常规生存可获取范围；创造或命令用途。",
+      "acquisition": "creative_or_command"
+    },
+    {
+      "item": "creeper_spawn_egg",
+      "reason": "刷怪蛋的物品形态不属于1.20.1常规生存可获取范围；创造或命令用途。",
+      "acquisition": "creative_or_command"
+    },
+    {
+      "item": "debug_stick",
+      "reason": "不属于1.20.1常规生存可获取物品；创造、管理员命令或地图制作用途，完整ID分类图保留。",
+      "acquisition": "creative_or_command"
+    },
+    {
+      "item": "dirt_path",
+      "reason": "该方块可存在于世界中，但1.20.1常规生存无法获得其对应物品形态；完整ID分类图保留。",
+      "acquisition": "world_block_without_survival_item"
+    },
+    {
+      "item": "dolphin_spawn_egg",
+      "reason": "刷怪蛋的物品形态不属于1.20.1常规生存可获取范围；创造或命令用途。",
+      "acquisition": "creative_or_command"
+    },
+    {
+      "item": "donkey_spawn_egg",
+      "reason": "刷怪蛋的物品形态不属于1.20.1常规生存可获取范围；创造或命令用途。",
+      "acquisition": "creative_or_command"
+    },
+    {
+      "item": "drowned_spawn_egg",
+      "reason": "刷怪蛋的物品形态不属于1.20.1常规生存可获取范围；创造或命令用途。",
+      "acquisition": "creative_or_command"
+    },
+    {
+      "item": "elder_guardian_spawn_egg",
+      "reason": "刷怪蛋的物品形态不属于1.20.1常规生存可获取范围；创造或命令用途。",
+      "acquisition": "creative_or_command"
+    },
+    {
+      "item": "end_portal_frame",
+      "reason": "该方块可存在于世界中，但1.20.1常规生存无法获得其对应物品形态；完整ID分类图保留。",
+      "acquisition": "world_block_without_survival_item"
+    },
+    {
+      "item": "ender_dragon_spawn_egg",
+      "reason": "刷怪蛋的物品形态不属于1.20.1常规生存可获取范围；创造或命令用途。",
+      "acquisition": "creative_or_command"
+    },
+    {
+      "item": "enderman_spawn_egg",
+      "reason": "刷怪蛋的物品形态不属于1.20.1常规生存可获取范围；创造或命令用途。",
+      "acquisition": "creative_or_command"
+    },
+    {
+      "item": "endermite_spawn_egg",
+      "reason": "刷怪蛋的物品形态不属于1.20.1常规生存可获取范围；创造或命令用途。",
+      "acquisition": "creative_or_command"
+    },
+    {
+      "item": "evoker_spawn_egg",
+      "reason": "刷怪蛋的物品形态不属于1.20.1常规生存可获取范围；创造或命令用途。",
+      "acquisition": "creative_or_command"
+    },
+    {
+      "item": "farmland",
+      "reason": "该方块可存在于世界中，但1.20.1常规生存无法获得其对应物品形态；完整ID分类图保留。",
+      "acquisition": "world_block_without_survival_item"
+    },
+    {
+      "item": "fox_spawn_egg",
+      "reason": "刷怪蛋的物品形态不属于1.20.1常规生存可获取范围；创造或命令用途。",
+      "acquisition": "creative_or_command"
+    },
+    {
+      "item": "frog_spawn_egg",
+      "reason": "刷怪蛋的物品形态不属于1.20.1常规生存可获取范围；创造或命令用途。",
+      "acquisition": "creative_or_command"
+    },
+    {
+      "item": "frogspawn",
+      "reason": "该方块可存在于世界中，但1.20.1常规生存无法获得其对应物品形态；完整ID分类图保留。",
+      "acquisition": "world_block_without_survival_item"
+    },
+    {
+      "item": "ghast_spawn_egg",
+      "reason": "刷怪蛋的物品形态不属于1.20.1常规生存可获取范围；创造或命令用途。",
+      "acquisition": "creative_or_command"
+    },
+    {
+      "item": "glow_squid_spawn_egg",
+      "reason": "刷怪蛋的物品形态不属于1.20.1常规生存可获取范围；创造或命令用途。",
+      "acquisition": "creative_or_command"
+    },
+    {
+      "item": "goat_spawn_egg",
+      "reason": "刷怪蛋的物品形态不属于1.20.1常规生存可获取范围；创造或命令用途。",
+      "acquisition": "creative_or_command"
+    },
+    {
+      "item": "guardian_spawn_egg",
+      "reason": "刷怪蛋的物品形态不属于1.20.1常规生存可获取范围；创造或命令用途。",
+      "acquisition": "creative_or_command"
+    },
+    {
+      "item": "hoglin_spawn_egg",
+      "reason": "刷怪蛋的物品形态不属于1.20.1常规生存可获取范围；创造或命令用途。",
+      "acquisition": "creative_or_command"
+    },
+    {
+      "item": "horse_spawn_egg",
+      "reason": "刷怪蛋的物品形态不属于1.20.1常规生存可获取范围；创造或命令用途。",
+      "acquisition": "creative_or_command"
+    },
+    {
+      "item": "husk_spawn_egg",
+      "reason": "刷怪蛋的物品形态不属于1.20.1常规生存可获取范围；创造或命令用途。",
+      "acquisition": "creative_or_command"
+    },
+    {
+      "item": "infested_chiseled_stone_bricks",
+      "reason": "该方块可存在于世界中，但1.20.1常规生存无法获得其对应物品形态；完整ID分类图保留。",
+      "acquisition": "world_block_without_survival_item"
+    },
+    {
+      "item": "infested_cobblestone",
+      "reason": "该方块可存在于世界中，但1.20.1常规生存无法获得其对应物品形态；完整ID分类图保留。",
+      "acquisition": "world_block_without_survival_item"
+    },
+    {
+      "item": "infested_cracked_stone_bricks",
+      "reason": "该方块可存在于世界中，但1.20.1常规生存无法获得其对应物品形态；完整ID分类图保留。",
+      "acquisition": "world_block_without_survival_item"
+    },
+    {
+      "item": "infested_deepslate",
+      "reason": "该方块可存在于世界中，但1.20.1常规生存无法获得其对应物品形态；完整ID分类图保留。",
+      "acquisition": "world_block_without_survival_item"
+    },
+    {
+      "item": "infested_mossy_stone_bricks",
+      "reason": "该方块可存在于世界中，但1.20.1常规生存无法获得其对应物品形态；完整ID分类图保留。",
+      "acquisition": "world_block_without_survival_item"
+    },
+    {
+      "item": "infested_stone",
+      "reason": "该方块可存在于世界中，但1.20.1常规生存无法获得其对应物品形态；完整ID分类图保留。",
+      "acquisition": "world_block_without_survival_item"
+    },
+    {
+      "item": "infested_stone_bricks",
+      "reason": "该方块可存在于世界中，但1.20.1常规生存无法获得其对应物品形态；完整ID分类图保留。",
+      "acquisition": "world_block_without_survival_item"
+    },
+    {
+      "item": "iron_golem_spawn_egg",
+      "reason": "刷怪蛋的物品形态不属于1.20.1常规生存可获取范围；创造或命令用途。",
+      "acquisition": "creative_or_command"
+    },
+    {
+      "item": "jigsaw",
+      "reason": "不属于1.20.1常规生存可获取物品；创造、管理员命令或地图制作用途，完整ID分类图保留。",
+      "acquisition": "creative_or_command"
+    },
+    {
+      "item": "knowledge_book",
+      "reason": "不属于1.20.1常规生存可获取物品；创造、管理员命令或地图制作用途，完整ID分类图保留。",
+      "acquisition": "creative_or_command"
+    },
+    {
+      "item": "light",
+      "reason": "不属于1.20.1常规生存可获取物品；创造、管理员命令或地图制作用途，完整ID分类图保留。",
+      "acquisition": "creative_or_command"
+    },
+    {
+      "item": "llama_spawn_egg",
+      "reason": "刷怪蛋的物品形态不属于1.20.1常规生存可获取范围；创造或命令用途。",
+      "acquisition": "creative_or_command"
+    },
+    {
+      "item": "magma_cube_spawn_egg",
+      "reason": "刷怪蛋的物品形态不属于1.20.1常规生存可获取范围；创造或命令用途。",
+      "acquisition": "creative_or_command"
+    },
+    {
+      "item": "mooshroom_spawn_egg",
+      "reason": "刷怪蛋的物品形态不属于1.20.1常规生存可获取范围；创造或命令用途。",
+      "acquisition": "creative_or_command"
+    },
+    {
+      "item": "mule_spawn_egg",
+      "reason": "刷怪蛋的物品形态不属于1.20.1常规生存可获取范围；创造或命令用途。",
+      "acquisition": "creative_or_command"
+    },
+    {
+      "item": "ocelot_spawn_egg",
+      "reason": "刷怪蛋的物品形态不属于1.20.1常规生存可获取范围；创造或命令用途。",
+      "acquisition": "creative_or_command"
+    },
+    {
+      "item": "panda_spawn_egg",
+      "reason": "刷怪蛋的物品形态不属于1.20.1常规生存可获取范围；创造或命令用途。",
+      "acquisition": "creative_or_command"
+    },
+    {
+      "item": "parrot_spawn_egg",
+      "reason": "刷怪蛋的物品形态不属于1.20.1常规生存可获取范围；创造或命令用途。",
+      "acquisition": "creative_or_command"
+    },
+    {
+      "item": "petrified_oak_slab",
+      "reason": "常规1.20.1生存新世界无法取得；旧版本存档遗留的石化橡木台阶可继续存在并在Java版挖掘掉落。创造选取或命令可获取，不在通常创造物品栏中。",
+      "acquisition": "creative_or_command"
+    },
+    {
+      "item": "phantom_spawn_egg",
+      "reason": "刷怪蛋的物品形态不属于1.20.1常规生存可获取范围；创造或命令用途。",
+      "acquisition": "creative_or_command"
+    },
+    {
+      "item": "pig_spawn_egg",
+      "reason": "刷怪蛋的物品形态不属于1.20.1常规生存可获取范围；创造或命令用途。",
+      "acquisition": "creative_or_command"
+    },
+    {
+      "item": "piglin_brute_spawn_egg",
+      "reason": "刷怪蛋的物品形态不属于1.20.1常规生存可获取范围；创造或命令用途。",
+      "acquisition": "creative_or_command"
+    },
+    {
+      "item": "piglin_spawn_egg",
+      "reason": "刷怪蛋的物品形态不属于1.20.1常规生存可获取范围；创造或命令用途。",
+      "acquisition": "creative_or_command"
+    },
+    {
+      "item": "pillager_spawn_egg",
+      "reason": "刷怪蛋的物品形态不属于1.20.1常规生存可获取范围；创造或命令用途。",
+      "acquisition": "creative_or_command"
+    },
+    {
+      "item": "player_head",
+      "reason": "玩家的头不会通过正常生存死亡掉落；完整ID分类图归原生物头颅属，生存进度排除。",
+      "acquisition": "creative_or_command"
+    },
+    {
+      "item": "polar_bear_spawn_egg",
+      "reason": "刷怪蛋的物品形态不属于1.20.1常规生存可获取范围；创造或命令用途。",
+      "acquisition": "creative_or_command"
+    },
+    {
+      "item": "pufferfish_spawn_egg",
+      "reason": "刷怪蛋的物品形态不属于1.20.1常规生存可获取范围；创造或命令用途。",
+      "acquisition": "creative_or_command"
+    },
+    {
+      "item": "rabbit_spawn_egg",
+      "reason": "刷怪蛋的物品形态不属于1.20.1常规生存可获取范围；创造或命令用途。",
+      "acquisition": "creative_or_command"
+    },
+    {
+      "item": "ravager_spawn_egg",
+      "reason": "刷怪蛋的物品形态不属于1.20.1常规生存可获取范围；创造或命令用途。",
+      "acquisition": "creative_or_command"
+    },
+    {
+      "item": "reinforced_deepslate",
+      "reason": "该方块可存在于世界中，但1.20.1常规生存无法获得其对应物品形态；完整ID分类图保留。",
+      "acquisition": "world_block_without_survival_item"
+    },
+    {
+      "item": "repeating_command_block",
+      "reason": "不属于1.20.1常规生存可获取物品；创造、管理员命令或地图制作用途，完整ID分类图保留。",
+      "acquisition": "creative_or_command"
+    },
+    {
+      "item": "salmon_spawn_egg",
+      "reason": "刷怪蛋的物品形态不属于1.20.1常规生存可获取范围；创造或命令用途。",
+      "acquisition": "creative_or_command"
+    },
+    {
+      "item": "sheep_spawn_egg",
+      "reason": "刷怪蛋的物品形态不属于1.20.1常规生存可获取范围；创造或命令用途。",
+      "acquisition": "creative_or_command"
+    },
+    {
+      "item": "shulker_spawn_egg",
+      "reason": "刷怪蛋的物品形态不属于1.20.1常规生存可获取范围；创造或命令用途。",
+      "acquisition": "creative_or_command"
+    },
+    {
+      "item": "silverfish_spawn_egg",
+      "reason": "刷怪蛋的物品形态不属于1.20.1常规生存可获取范围；创造或命令用途。",
+      "acquisition": "creative_or_command"
+    },
+    {
+      "item": "skeleton_horse_spawn_egg",
+      "reason": "刷怪蛋的物品形态不属于1.20.1常规生存可获取范围；创造或命令用途。",
+      "acquisition": "creative_or_command"
+    },
+    {
+      "item": "skeleton_spawn_egg",
+      "reason": "刷怪蛋的物品形态不属于1.20.1常规生存可获取范围；创造或命令用途。",
+      "acquisition": "creative_or_command"
+    },
+    {
+      "item": "slime_spawn_egg",
+      "reason": "刷怪蛋的物品形态不属于1.20.1常规生存可获取范围；创造或命令用途。",
+      "acquisition": "creative_or_command"
+    },
+    {
+      "item": "sniffer_spawn_egg",
+      "reason": "刷怪蛋的物品形态不属于1.20.1常规生存可获取范围；创造或命令用途。",
+      "acquisition": "creative_or_command"
+    },
+    {
+      "item": "snow_golem_spawn_egg",
+      "reason": "刷怪蛋的物品形态不属于1.20.1常规生存可获取范围；创造或命令用途。",
+      "acquisition": "creative_or_command"
+    },
+    {
+      "item": "spawner",
+      "reason": "该方块可存在于世界中，但1.20.1常规生存无法获得其对应物品形态；完整ID分类图保留。",
+      "acquisition": "world_block_without_survival_item"
+    },
+    {
+      "item": "spider_spawn_egg",
+      "reason": "刷怪蛋的物品形态不属于1.20.1常规生存可获取范围；创造或命令用途。",
+      "acquisition": "creative_or_command"
+    },
+    {
+      "item": "squid_spawn_egg",
+      "reason": "刷怪蛋的物品形态不属于1.20.1常规生存可获取范围；创造或命令用途。",
+      "acquisition": "creative_or_command"
+    },
+    {
+      "item": "stray_spawn_egg",
+      "reason": "刷怪蛋的物品形态不属于1.20.1常规生存可获取范围；创造或命令用途。",
+      "acquisition": "creative_or_command"
+    },
+    {
+      "item": "strider_spawn_egg",
+      "reason": "刷怪蛋的物品形态不属于1.20.1常规生存可获取范围；创造或命令用途。",
+      "acquisition": "creative_or_command"
+    },
+    {
+      "item": "structure_block",
+      "reason": "不属于1.20.1常规生存可获取物品；创造、管理员命令或地图制作用途，完整ID分类图保留。",
+      "acquisition": "creative_or_command"
+    },
+    {
+      "item": "structure_void",
+      "reason": "不属于1.20.1常规生存可获取物品；创造、管理员命令或地图制作用途，完整ID分类图保留。",
+      "acquisition": "creative_or_command"
+    },
+    {
+      "item": "suspicious_gravel",
+      "reason": "考古刷取获得内部战利品，不会取得该可疑方块物品；完整ID分类图保留，生存物品收集目标排除。",
+      "acquisition": "world_block_without_survival_item"
+    },
+    {
+      "item": "suspicious_sand",
+      "reason": "考古刷取获得内部战利品，不会取得该可疑方块物品；完整ID分类图保留，生存物品收集目标排除。",
+      "acquisition": "world_block_without_survival_item"
+    },
+    {
+      "item": "tadpole_spawn_egg",
+      "reason": "刷怪蛋的物品形态不属于1.20.1常规生存可获取范围；创造或命令用途。",
+      "acquisition": "creative_or_command"
+    },
+    {
+      "item": "trader_llama_spawn_egg",
+      "reason": "刷怪蛋的物品形态不属于1.20.1常规生存可获取范围；创造或命令用途。",
+      "acquisition": "creative_or_command"
+    },
+    {
+      "item": "tropical_fish_spawn_egg",
+      "reason": "刷怪蛋的物品形态不属于1.20.1常规生存可获取范围；创造或命令用途。",
+      "acquisition": "creative_or_command"
+    },
+    {
+      "item": "turtle_spawn_egg",
+      "reason": "刷怪蛋的物品形态不属于1.20.1常规生存可获取范围；创造或命令用途。",
+      "acquisition": "creative_or_command"
+    },
+    {
+      "item": "vex_spawn_egg",
+      "reason": "刷怪蛋的物品形态不属于1.20.1常规生存可获取范围；创造或命令用途。",
+      "acquisition": "creative_or_command"
+    },
+    {
+      "item": "villager_spawn_egg",
+      "reason": "刷怪蛋的物品形态不属于1.20.1常规生存可获取范围；创造或命令用途。",
+      "acquisition": "creative_or_command"
+    },
+    {
+      "item": "vindicator_spawn_egg",
+      "reason": "刷怪蛋的物品形态不属于1.20.1常规生存可获取范围；创造或命令用途。",
+      "acquisition": "creative_or_command"
+    },
+    {
+      "item": "wandering_trader_spawn_egg",
+      "reason": "刷怪蛋的物品形态不属于1.20.1常规生存可获取范围；创造或命令用途。",
+      "acquisition": "creative_or_command"
+    },
+    {
+      "item": "warden_spawn_egg",
+      "reason": "刷怪蛋的物品形态不属于1.20.1常规生存可获取范围；创造或命令用途。",
+      "acquisition": "creative_or_command"
+    },
+    {
+      "item": "witch_spawn_egg",
+      "reason": "刷怪蛋的物品形态不属于1.20.1常规生存可获取范围；创造或命令用途。",
+      "acquisition": "creative_or_command"
+    },
+    {
+      "item": "wither_skeleton_spawn_egg",
+      "reason": "刷怪蛋的物品形态不属于1.20.1常规生存可获取范围；创造或命令用途。",
+      "acquisition": "creative_or_command"
+    },
+    {
+      "item": "wither_spawn_egg",
+      "reason": "刷怪蛋的物品形态不属于1.20.1常规生存可获取范围；创造或命令用途。",
+      "acquisition": "creative_or_command"
+    },
+    {
+      "item": "wolf_spawn_egg",
+      "reason": "刷怪蛋的物品形态不属于1.20.1常规生存可获取范围；创造或命令用途。",
+      "acquisition": "creative_or_command"
+    },
+    {
+      "item": "zoglin_spawn_egg",
+      "reason": "刷怪蛋的物品形态不属于1.20.1常规生存可获取范围；创造或命令用途。",
+      "acquisition": "creative_or_command"
+    },
+    {
+      "item": "zombie_horse_spawn_egg",
+      "reason": "刷怪蛋的物品形态不属于1.20.1常规生存可获取范围；创造或命令用途。",
+      "acquisition": "creative_or_command"
+    },
+    {
+      "item": "zombie_spawn_egg",
+      "reason": "刷怪蛋的物品形态不属于1.20.1常规生存可获取范围；创造或命令用途。",
+      "acquisition": "creative_or_command"
+    },
+    {
+      "item": "zombie_villager_spawn_egg",
+      "reason": "刷怪蛋的物品形态不属于1.20.1常规生存可获取范围；创造或命令用途。",
+      "acquisition": "creative_or_command"
+    },
+    {
+      "item": "zombified_piglin_spawn_egg",
+      "reason": "刷怪蛋的物品形态不属于1.20.1常规生存可获取范围；创造或命令用途。",
+      "acquisition": "creative_or_command"
+    }
+  ],
+  "scope": "Minecraft Java 1.20.1 complete item registry; game goals filter normal survival obtainability.",
+  "grouping_rule": "属主要沿用作者既有分类，并参考 Minecraft Wiki 条目归属：无独立页面、与其他物品同页者可合为一属。完整分类包括非生存物品；游戏仅使用生存可获取子集。"
+}

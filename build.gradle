@@ -1,0 +1,34 @@
+plugins {
+    id 'java'
+    id 'net.minecraftforge.gradle' version '6.0.54'
+}
+
+group = 'org.nivpisum'
+version = '1.3.0'
+base { archivesName = 'aica_1.20.1_forge' }
+java { toolchain.languageVersion = JavaLanguageVersion.of(17) }
+minecraft { mappings channel: 'official', version: '1.20.1' }
+repositories { mavenCentral() }
+
+def integrationDirectory = providers.gradleProperty('aicaDependencies').getOrElse('build/dependencies')
+dependencies {
+    minecraft 'net.minecraftforge:forge:1.20.1-47.4.23'
+    compileOnly files("${integrationDirectory}/MoreCreativeTabs-combo-1.20-1.2.1.jar")
+    compileOnly files("${integrationDirectory}/inventory-item-groups-1.5.1-forge+1.20-all-srg.jar")
+}
+
+tasks.withType(JavaCompile).configureEach {
+    options.encoding = 'UTF-8'
+    options.release = 17
+    options.compilerArgs += ['-proc:none']
+}
+tasks.named('processResources') {
+    from('build/generated/resources')
+}
+tasks.named('jar') {
+    archiveFileName = "aica_1.20.1_forge_${project.version}.jar"
+    manifest { attributes 'MixinConfigs': 'aica.mixins.json' }
+    preserveFileTimestamps = false
+    reproducibleFileOrder = true
+    finalizedBy 'reobfJar'
+}

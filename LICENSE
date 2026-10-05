@@ -1,0 +1,31 @@
+AICA — All Rights Reserved
+
+Copyright nivpisum (historically credited as SnowyPea).
+
+The author retains all rights in the original AICA work, its classification,
+and the author's code and documentation. Publication of source code does not
+grant an open-source license or permission to redistribute, modify, sublicense
+or reuse the work beyond permission granted separately by the rights holder.
+The historical AICA archive did not declare a redistribution license; this
+release does not replace that status with a new license.
+
+Third-party material is excluded from any claim of exclusive ownership by
+the AICA author and remains subject to its respective rights and licenses:
+
+* Minecraft Java Edition resources belong to Mojang Studios / Microsoft.
+  The AICA badge includes vanilla 1.20.1 texture material. Item icons and
+  advancement backgrounds reference game-provided resources. The bundle
+  recipe is copied from the built-in Minecraft 1.20.1 bundle datapack.
+  Minecraft EULA: https://www.minecraft.net/eula
+  Minecraft Usage Guidelines: https://www.minecraft.net/usage-guidelines
+* MoreCreativeTabs and Inventory Item Groups are separate MIT-licensed
+  dependencies. Their code and binaries are not embedded in the AICA
+  datapack or mod. Their own licenses continue to apply to those projects.
+* The Gradle Wrapper, if included in the source distribution, is a Gradle
+  component licensed under Apache License 2.0. Its upstream copyright and
+  license notices must be retained. See:
+  https://github.com/gradle/gradle/blob/v8.7.0/LICENSE
+  https://www.apache.org/licenses/LICENSE-2.0
+
+See NOTICE.md for attribution and dependency sources. AICA is not an
+official Mojang or Microsoft product.

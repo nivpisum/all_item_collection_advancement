@@ -1,0 +1,45 @@
+modLoader="javafml"
+loaderVersion="[47,48)"
+license="All Rights Reserved"
+
+[[mods]]
+modId="aica"
+version="1.3.0"
+displayName="AICA - 全物品收集进度"
+authors="nivpisum"
+logoFile="pack.png"
+description='''
+将 Minecraft 1.20.1 的物品分类化为生存收集目标。
+27 个目页面和 1 个总览追踪 1146 种合法物品，收齐分类全部成员即可完成进度。
+创造栏按分类展示物品，属与原生变体可点击展开、折叠；保留快捷栏、搜索、生存物品栏及其他模组页。
+客户端需要 MoreCreativeTabs 与 Inventory Item Groups；支持 Better Advancements。
+'''
+displayTest="IGNORE_ALL_VERSION"
+
+[[dependencies.aica]]
+modId="forge"
+mandatory=true
+versionRange="[47.4.23,48)"
+ordering="NONE"
+side="BOTH"
+
+[[dependencies.aica]]
+modId="minecraft"
+mandatory=true
+versionRange="[1.20.1]"
+ordering="NONE"
+side="BOTH"
+
+[[dependencies.aica]]
+modId="morecreativetabs"
+mandatory=true
+versionRange="[1.2.1]"
+ordering="AFTER"
+side="CLIENT"
+
+[[dependencies.aica]]
+modId="inventory_item_groups"
+mandatory=true
+versionRange="[1.5.1-forge+1.20]"
+ordering="AFTER"
+side="CLIENT"

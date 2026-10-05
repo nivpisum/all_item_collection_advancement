@@ -1,0 +1,24 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "org.snowypea.aica.mixin",
+  "compatibilityLevel": "JAVA_17",
+  "client": [
+    "MoreCreativeTabsMixin",
+    "ItemGroupsMixin",
+    "CreativeScreenMixin",
+    "CreativeContentsMixin",
+    "AdvancementScreenRemovalMixin",
+    "ClientAdvancementsMixin",
+    "AdvancementTabMixin",
+    "AdvancementsScreenMixin",
+    "BetterAdvancementTabMixin",
+    "BetterAdvancementsScreenMixin",
+    "BetterAdvancementTabTypeAccessor",
+    "AdvancementWidgetMixin",
+    "BetterAdvancementWidgetMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
